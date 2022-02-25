@@ -1,0 +1,813 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The interest of Scotland in three essays ...</title>
+            <author>Seton, William, Sir, d. 1744.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 129 KB of XML-encoded text transcribed from 62 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A59284</idno>
+            <idno type="STC">Wing S2650</idno>
+            <idno type="STC">ESTC R15555</idno>
+            <idno type="EEBO-CITATION">12006073</idno>
+            <idno type="OCLC">ocm 12006073</idno>
+            <idno type="VID">52332</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A59284)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 52332)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 877:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The interest of Scotland in three essays ...</title>
+                  <author>Seton, William, Sir, d. 1744.</author>
+               </titleStmt>
+               <extent>[8], 114 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London? :</pubPlace>
+                  <date>1700.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+                  <note>Attributed to William Seton. cf. BM.</note>
+                  <note>Table of contents: p. [7]</note>
+                  <note>Of the true original and indifferency of church government -- Of the union of Scotland and England into one monarchy -- Of the present state of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Scotland --  Politics and government --  17th century.</term>
+               <term>Scotland --  Church history.</term>
+               <term>Scotland --  History --  The Union, 1707.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-06</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-06</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:52332:1"/>
+            <pb facs="tcp:52332:1" rendition="simple:additions"/>
+            <p>THE INTEREST OF SCOTLAND IN THREE ESSAYS <hi>VIZ.</hi>
+            </p>
+            <list>
+               <item>I. Of the true Original and Indifferency of Church-Government.</item>
+               <item>II. Of the Union of <hi>Scotland</hi> and <hi>England</hi> into one Monarchy.</item>
+               <item>III. Of the preſent State of <hi>Scotland.</hi>
+               </item>
+            </list>
+            <q>
+               <hi>Conamur tenues Grandia.</hi>
+            </q>
+            <p>
+               <hi>Printed</hi> in the Year 1700.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:52332:2"/>
+            <pb facs="tcp:52332:2"/>
+            <head>TO THE Nobility <hi>and</hi> Gentry OF SCOTLAND</head>
+            <opener>
+               <salute>My Lords and Gentlemen,</salute>
+            </opener>
+            <p>A Man who maketh the Publick Concern his own, and an Au<g ref="char:EOLhyphen"/>thor that Dedicats his Works to any Society of People, the one muſt reſolve to have the Senſe of his Duty for a re<g ref="char:EOLhyphen"/>ward: And the other, Men of all Cha<g ref="char:EOLhyphen"/>racters for his Patrons.</p>
+            <p>But Men that live together in a regu<g ref="char:EOLhyphen"/>lar Society, are very much deceived, when they think it ſufficient for their Happineſs to ſcrape together plentiful Eſtates: without concerning themſelves how the publick Buſineſs of their Coun<g ref="char:EOLhyphen"/>try is managed. For, how can they be ſecure, either in their Enjoyment, if the Laws don't protect them? Or, how can they Hope for Good Laws, if they don't concern themſelves with that Aſſembly, which hath the Legiſla<g ref="char:EOLhyphen"/>tive power?</p>
+            <pb facs="tcp:52332:3"/>
+            <p> 
+               <hi>Rome</hi> owes not her Greatneſs to her Founders, who were a parcel of Peo<g ref="char:EOLhyphen"/>ple Born and Nurs'd up in Murders and Plunderings, and trained in all ſort of Villanies; but to their Succeſſors, who became Wiſe, Frugal, Juſt, and paſ<g ref="char:EOLhyphen"/>ſionatly ſtudious of Virtue and Glory, till at laſt, they overtop'd in power all their Neighbours. Nor could any thing have put a ſtop to their Empire, till privat Men did prefer their own gain to the Intereſt of the Publick. Then was it, that, in the time of the Empe<g ref="char:EOLhyphen"/>ror <hi>Tiberius,</hi> all ran headlong into Sla<g ref="char:EOLhyphen"/>very; The Conſuls, the Senat, the Gentry: And the Nobler the Perſon was, the greater haſt he made to ruine his Country.</p>
+            <p>
+               <hi>My Lords,</hi>
+            </p>
+            <p>You are Hereditary Members of Par<g ref="char:EOLhyphen"/>liament, ſo that both your Titles of Honour and your privat Intereſts oblige your Lordſhips to be the Pillars and Supporters of your Country: By ma<g ref="char:EOLhyphen"/>naging all it's Concerns, without the leaſt byaſs, from that true Virtue which
+<pb facs="tcp:52332:3"/>inſpired ſome of your Forefathers to ap<g ref="char:EOLhyphen"/>pear Heroes for this Nation.</p>
+            <p>And you, Gentlemen, who are Mem<g ref="char:EOLhyphen"/>bers of Parliament, both your Duty to your Countrey, to your Friends, and to your ſelves, will ſtare you in the Face, if you do any thing againſt the Intereſt of any of them. And you that are not Members of Parliament, how neceſſary is it, for the Security of your Lives, Liberties and Properties, that good Laws be made, and every thing removed, that may endanger them? Be therefore diligent, in putting the Members of Parliament in mind of their Duty; and let the moſt ſenſible of you, who have Families and Eſtates to care for, endea<g ref="char:EOLhyphen"/>vour to fill the Places of the Repreſen<g ref="char:EOLhyphen"/>tatives of Parliament, when any are va<g ref="char:EOLhyphen"/>cant, that by your Honeſty and Wiſdom, every Misfortune may be avoided, that hath threatned this Nation from Mem<g ref="char:EOLhyphen"/>bers, that have neither Fortune nor Re<g ref="char:EOLhyphen"/>putation to preſerve.</p>
+            <p>Whilſt the Parliament contains Men of Courage and Publick Spirit, who can neither be bought nor frighted, Matters cannot long proceed amiſs: And 'tis
+<pb facs="tcp:52332:4"/>hardly conceivable, what Eſteem is payed to Men of ſteddy Principles, even by their Enemies: their very Words and Actions are admired and followed, ſo long as they live. Whereas buſy In<g ref="char:EOLhyphen"/>triguers after Places and Penſions are contemptible to the very Men, of whom they are the wretched Inſtruments to en<g ref="char:EOLhyphen"/>ſlave their Countrey.</p>
+            <p>Therefore, <hi>My Lords and Gentlemen,</hi> If theſe Eſſays can demonſtrat any way the Intereſt of this Nation, I will have my Deſign both in Writing and Dedica<g ref="char:EOLhyphen"/>ting of them to you, on whom depen<g ref="char:EOLhyphen"/>deth the greateſt part of the Happineſs of your Countrey.</p>
+            <closer>
+               <salute>My Lords and Gentlemen,</salute> 
+               <signed> 
+                  <hi>Yours,</hi> &amp;c.</signed>
+            </closer>
+         </div>
+         <div type="errata">
+            <p>
+               <hi>This Book being printed in haſte, theſe Errors have eſcaped the Correction of the Preſs, which the Reader is deſired to mend with his Pen.</hi>
+            </p>
+            <p>Page 8. line 8. for <hi>was,</hi> read <hi>were.</hi> p. 32. l. 8. f. <hi>Pedro.</hi> r. <hi>Pietro.</hi> p. 44. l. 28. f. <hi>Unite.</hi> r. <hi>Act.</hi> p. 54. l. 17. f. <hi>have.</hi> r. <hi>hath.</hi> p. 100. l. 9. f. <hi>part.</hi> r. <hi>Party.</hi>
+            </p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:52332:4"/>
+            <head>The Contents of the Eſſay upon the preſent State of <hi>Scotland.</hi>
+            </head>
+            <list>
+               <item>The Introduction. <hi>Page 65</hi>
+               </item>
+               <item>
+                  <hi>Section. I.</hi> Of the Education of Youth. <hi>Page 67</hi>
+               </item>
+               <item>
+                  <hi>Sect. II.</hi> Of the Commons. <hi>Page 73</hi>
+               </item>
+               <item>
+                  <hi>Sect. III.</hi> Of the Clergy. <hi>Page 81</hi>
+               </item>
+               <item>
+                  <hi>Sect. IV.</hi> Of the Nobility and Gentry. <hi>Page 86</hi>
+               </item>
+               <item>
+                  <hi>Sect. V.</hi> Of the King and Parliament. <hi>Page 89</hi>
+               </item>
+               <item>
+                  <hi>Sect. VI.</hi> That a mixt Government can<g ref="char:EOLhyphen"/>not increaſe in Wealth and Power, but by the Honeſty and Wiſdom of it's Mem<g ref="char:EOLhyphen"/>bers of Parliament. <hi>Page 95</hi>
+               </item>
+               <item>
+                  <hi>Sect. VII.</hi> What Meaſures this preſent Parliament ought to take, for recove<g ref="char:EOLhyphen"/>ring the Abuſes of former Reigns, and putting this Nation into a conſtant Courſe of Thriving. <hi>Page 103</hi>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="essay">
+            <pb facs="tcp:52332:5"/>
+            <pb n="1" facs="tcp:52332:5"/>
+            <head>AN ESSAY CONCERNING <hi>The true Original and Indif<g ref="char:EOLhyphen"/>ferency</hi> OF Church Government.</head>
+            <p>ALL Chriſtians are taught by Divine Revelation, that they are the Off-ſpring of one Man and one Woman; for whoſe ſin being condemned to Ignorance, they are prone to Vice, and ſubject to unruly Paſſions, which hurries them on in the Com<g ref="char:EOLhyphen"/>miſſion of Evil, and cauſes Rapine and Violence to triumph in the World.</p>
+            <pb n="2" facs="tcp:52332:6"/>
+            <p> It was only a few of the firſt Ages, that retained any knowledg of <hi>God,</hi> and of <hi>His Worſhip;</hi> all the reſt being left to the Dictats of <hi>Nature,</hi> to provide what they ſhould find convenient for themſelves: Till mutual fear of being op<g ref="char:EOLhyphen"/>preſſed one by another did oblige them to unite into <hi>Communities.</hi> Then aroſe <hi>Command</hi> and <hi>Obedience,</hi> which ever have been the ſupport of all humane Affairs, the Bond of all Society, and the Spirit of every Body Politick, which inables all it's Members to live in Unity.</p>
+            <p>So long as the World was divided in<g ref="char:EOLhyphen"/>to petty Governments equal in ſtrength amongſt themſelves, the greateſt Am<g ref="char:EOLhyphen"/>bition of each Mortal, was the Intereſt of that Society whereof he was a Mem<g ref="char:EOLhyphen"/>ber, ſo that <hi>Self-preſervation</hi> had the ſame force to keep him to his duty, that <hi>Religion</hi> hath almoſt upon us at preſent.</p>
+            <p>But ſo ſoon as ſome of thoſe <hi>Communi<g ref="char:EOLhyphen"/>ties</hi> did contract a Friendſhip and Aſſu<g ref="char:EOLhyphen"/>rance amongſt themſelves, perhaps ſome particular Member (whoſe ill Nature and Ambition over-reached the Wit of his Fellows) did engage them to league
+<pb n="3" facs="tcp:52332:6"/>together, and to aſſault their Neigh<g ref="char:EOLhyphen"/>bouring Governments, compelling them one after another to ſubmit and trudge for their Maintainance, whilſt they loitered at home in eaſe and plenty: and from ſuch oppreſſive means (we may ſuppoſe) did ſpring the <hi>Aſſyrian</hi> Empire, (which is the firſt made men<g ref="char:EOLhyphen"/>tion of in Hiſtory) the Founder of which was <hi>Nimrod,</hi> who had the Art to cheat his Companions into a Com<g ref="char:EOLhyphen"/>pliance with himſelf, for oppreſſing their Neighbours, and to get himſelf choſen their Captain, that he might at laſt be able to buble them of their Liber<g ref="char:EOLhyphen"/>ties, and to become their abſolute <hi>Mo<g ref="char:EOLhyphen"/>narch. So Self-preſervation,</hi> that great Motive which kept his Fore-fathers in aw, being no longer in uſe to preſerve in order that new moudled Empire, there was a neceſſity of ſome Model of Civil Government to make all its Members live regularly, and to follow the different profeſſions aſſigned them; that Corporations, Colledges, and every Civil Community might have their uſe, and that the diſtinction of <hi>Abſolute</hi> and
+<pb n="4" facs="tcp:52332:7"/>
+               <hi>Subordinate</hi> Powers might come in faſhion.</p>
+            <p>Nevertheleſs, this Empire had ſplit in pieces in its very Infancy, (its Peo<g ref="char:EOLhyphen"/>ple being in Eaſe and Plenty, and its Soldiers left to follow the itch of their own Inclinations) if there had not been ſome Men, by decay of Nature, per<g ref="char:EOLhyphen"/>haps incapable of the Vices then in Vogue, which had the foreſight to joyn <hi>Prieſt-Craft</hi> with their Civil Govern<g ref="char:EOLhyphen"/>ment; for Baniſhing from it (as much as poſſible) both Mental and Corporal Vices, and for bringing People's Con<g ref="char:EOLhyphen"/>ſciences under Subjection; that they might the more nicely obſerve a ſtrict<g ref="char:EOLhyphen"/>neſs in Morals. Then it was, that the <hi>Aſſyrian Monarchy</hi> had it's Church-Go<g ref="char:EOLhyphen"/>vernment, as well, as (in ſucceeding Ages) the <hi>Perſian, Graecian, Roman,</hi> and and all other <hi>Heathen</hi> Governments had their's: which have been compoſed of Perſons of more than vulgar Gapaci<g ref="char:EOLhyphen"/>ties, capable to continue a probable Hiſtory of a World to come, to make acquaintance with its imaginary Inhabi<g ref="char:EOLhyphen"/>tants, and to become Mediators betwixt them and their fellow Citizens, whom
+<pb n="5" facs="tcp:52332:7"/>they always managed both for the Glory of their Gods, and for their own private Advantage. Then was it the Cuſtom to Sacrifice, not only Beaſts, but Men, Women, and Children, and to impoſe all the Idolatry imaginable upon the World, by their <hi>Oracles;</hi> the Cheat of which hath been often diſcovered, as particularly, by <hi>Theophilus</hi> Biſhop of <hi>Alexandria,</hi> who ſhewed the Inhabitants of that Town, the hollow Statues into which the Prieſts privately crept to give their Reſponſes.</p>
+            <p>Of all the <hi>Pagan</hi> Church-Govern<g ref="char:EOLhyphen"/>ments, we know moſt of that of the <hi>Romans.</hi>
+            </p>
+            <p>
+               <hi>Romnlus</hi> and his Suceſſor <hi>Numa Pom<g ref="char:EOLhyphen"/>pilius</hi> being made ſenſible by their own Experience, and that of their Neigh<g ref="char:EOLhyphen"/>bours, how great a Ligament of Go<g ref="char:EOLhyphen"/>vernment political Religion was, took care to Inſtitute ſeveral Orders of <hi>Prieſts,</hi> to whom all their Subjects might pay Honour, and by whom they were to be inſtructed, how to pray, what Sacrifices, what Vowes, what Gifts would be acceptable to the Gods; and in a word, in all the Cere<g ref="char:EOLhyphen"/>monies
+<pb n="6" facs="tcp:52332:8"/>made uſe of in <hi>Divine-Service.</hi>
+            </p>
+            <p>The <hi>Pontifices</hi> of all the <hi>Prieſts,</hi> ſeems to have had the greateſt ſhare of Church-Government; for <hi>Cicero</hi> (in his Ora<g ref="char:EOLhyphen"/>tion to them) tells them, that the Ho<g ref="char:EOLhyphen"/>nour and Safety of the Common Wealth, the Liberty of the People, the Houſes and Fortunes of the Citizens, and the very Gods themſelves were all entruſt<g ref="char:EOLhyphen"/>ed to their Care, and depended whol<g ref="char:EOLhyphen"/>ly on their Wiſdom and Management.</p>
+            <p>The <hi>Superintendent</hi> of the <hi>Pontifices,</hi> was one of the Moſt honourable Offices in the Common Wealth; upon which account all the Emperors, for their own Intereſt, and after the Example of <hi>Julius Caeſar,</hi> either took the Name of <hi>Ponti<g ref="char:EOLhyphen"/>ſex Maximus,</hi> or actually diſcharged the Office themſelves; and even the Chri<g ref="char:EOLhyphen"/>ſtian Emperors retained the Title, till <hi>Gratian</hi> refuſed it.</p>
+            <p>The <hi>Jews</hi> were the only People on Earth that had continued to them the Knowledge of the true GOD, who was pleaſed to reveal his Will from time to time to their Fore-fathers, command<g ref="char:EOLhyphen"/>ing <hi>Moſes</hi> his Servant to give them his Laws, and to Model a Church-Govern<g ref="char:EOLhyphen"/>ment,
+<pb n="7" facs="tcp:52332:8" rendition="simple:additions"/>to the Members of which were to be committed the <hi>Divine Oracles.</hi>
+            </p>
+            <p>This was the State of the <hi>Jews,</hi> whilſt the wiſe Governours of all othr Na<g ref="char:EOLhyphen"/>tions, ſuch as <hi>Solon, Lycurgus,</hi> and <hi>Numa Pompilius,</hi> were ſenſible of the uſe of <hi>Re<g ref="char:EOLhyphen"/>ligion;</hi> but were not able to become acquainted with the true God for want of Revelation: So that their Opinions about His <hi>Will</hi> and <hi>Nature,</hi> and thoſe of all the Ancient Philoſophers have been ſo many ridiculous Whimſies.</p>
+            <p>But no ſooner did the Son of GOD appear, (who was the Original and Model of all Perfection) than he was to be a Light to the whole World; and a great part of the <hi>Jewiſh</hi> Laws was to loſe their Authority. For he knowing the Will of God his Father, better than <hi>Moſes,</hi> was pleaſed to reveal to all Na<g ref="char:EOLhyphen"/>tions, that it was no longer the deſign of God to make a diſtinction betwixt <hi>Jew</hi> and <hi>Gentile,</hi> but that he would em<g ref="char:EOLhyphen"/>brace every Nation, that would believe in him, and obey his Laws. At Thirty years of Age he began to eſtabliſh his moſt excellent Religion, meeting with all the Oppoſition imaginable from the
+<pb n="8" facs="tcp:52332:9"/>
+               <hi>Jews,</hi> as an invader of their Funda<g ref="char:EOLhyphen"/>mental Laws; He was Perſecuted, and fol<g ref="char:EOLhyphen"/>lowed all his life with Aſſaults of Malice and Cruelty; His Credit was Slandered, his Doctrine ſlighted; and at laſt he was put to Death with all ſort of Tor<g ref="char:EOLhyphen"/>ture and Diſgrace. His only Compa<g ref="char:EOLhyphen"/>nions upon Earth was a parcel of poor People, whom he called his Diſciples, and to whom he taught a Doctrine, that called men from their Luſts and Plea<g ref="char:EOLhyphen"/>ſures; that offered Violence to their Natural Inclinations; That required the greateſt ſtrictneſs of Life; That re<g ref="char:EOLhyphen"/>vealed Truths above the reach of Na<g ref="char:EOLhyphen"/>tural Comprehenſion, and that obliged Men to take up a Croſs, to follow the Example of a <hi>Crucified Saviour,</hi> in ex<g ref="char:EOLhyphen"/>pectation of an inviſible World.</p>
+            <p>This <hi>Jeſus</hi> then is of more value to us, than e're <hi>Moſes</hi> was to the <hi>Jews;</hi> he being our Law-giver, our <hi>God</hi> and our <hi>Saviour,</hi> who hath given Laws to all thoſe, who will believe and acknowledge his Au<g ref="char:EOLhyphen"/>thority.</p>
+            <p>Our <hi>Saviour,</hi> when he came into the World, as he was <hi>God,</hi> ſo was he <hi>Omni<g ref="char:EOLhyphen"/>ſcient,</hi> knew what Oppoſition his Doct<g ref="char:EOLhyphen"/>rine
+<pb n="9" facs="tcp:52332:9"/>would meet with, and with what Misfortunes his Followers would be dog<g ref="char:EOLhyphen"/>ged. He came not to a particular People, as <hi>Moſes</hi> did to the <hi>Jews,</hi> of whoſe obe<g ref="char:EOLhyphen"/>dience he was aſſured; but he came to the People of the habitable Earth, to teach them the way to Heaven by <hi>Re<g ref="char:EOLhyphen"/>pentance</hi> and <hi>Faith.</hi> At his firſt Arrival he found no <hi>Church,</hi> but the <hi>Jewiſh,</hi> which was to evaniſh at his Appearance: Therefore he laid the Foundation of one himſelf, by Preaching and working Mi<g ref="char:EOLhyphen"/>racles, and by triumphing on the <hi>Croſs</hi> over Ignorance and Wickedneſs, which had ruled all the Heathens.</p>
+            <p>After his Aſcenſion into Heaven, on the day of <hi>Pentecoſt,</hi> he ſent down the <hi>Holy Ghoſt</hi> upon his <hi>Apoſtles</hi> and <hi>Diſ<g ref="char:EOLhyphen"/>ciples,</hi> who were aſſembled at <hi>Jeruſalem,</hi> enduing them with the Gift of <hi>Tongues,</hi> and of <hi>working Miracles;</hi> Commiſſionat<g ref="char:EOLhyphen"/>ing them to propagat his <hi>Church</hi> and <hi>Kingdom,</hi> thro' the whole World: Which accordingly they did, Preaching the <hi>Goſ<g ref="char:EOLhyphen"/>pel</hi> firſt to the <hi>Jews,</hi> and then to the <hi>Gen<g ref="char:EOLhyphen"/>tiles,</hi> many of them taking particular parts of the World, to make known the Joyful News of Salvation. Thus St. <hi>An<g ref="char:EOLhyphen"/>drew</hi>
+               <pb n="10" facs="tcp:52332:10"/>Preached the Goſpel in <hi>Scythia,</hi> St. <hi>Bartholomew</hi> in <hi>India,</hi> St. <hi>Matthew</hi> in <hi>Parthia,</hi> and St. <hi>John</hi> in the leſſer <hi>Aſia:</hi> They went from Town to Town, and from Village to Village, publiſhing the Bleſſed News of Immortality, and con<g ref="char:EOLhyphen"/>ſtituting <hi>Biſhops</hi> and <hi>Deacons,</hi> the firſt Fruits of their Miniſtry, leaving them to govern, and to enlarge the particular Churches, over which they had placed them. <hi>Tertullian</hi> ſaith <hi>(de Praeſcrip. ad<g ref="char:EOLhyphen"/>verſ. Haereti.)</hi> That <hi>Clemens</hi> was ordain<g ref="char:EOLhyphen"/>ed <hi>Biſhop</hi> of <hi>Rome</hi> by St. <hi>Peter,</hi> and <hi>Polycarp Biſhop</hi> of <hi>Smirna</hi> by St. <hi>John.</hi>
+            </p>
+            <p>Now, Let us enquire, whether our <hi>Saviour,</hi> or his <hi>Apoſtles</hi> after his Death, left any diſtinct <hi>Scheme</hi> of Government, to be followed by all particular <hi>Churches;</hi> which <hi>Scheme,</hi> if there be any, muſt be found in the <hi>Holy Scriptures,</hi> or in the Writings of the <hi>Fathers,</hi> who ſucceeded immediatly to the <hi>Apoſtles;</hi> but if no <hi>Scheme</hi> of <hi>Church Covernment</hi> is to be found in either of them, it is very ſur<g ref="char:EOLhyphen"/>priſing, that ever ſince the <hi>Reformation</hi> in this <hi>Iſland,</hi> there have been two Par<g ref="char:EOLhyphen"/>ties which have ſet up for different <hi>Schemes</hi> of <hi>Church-Government,</hi> the one
+<pb n="11" facs="tcp:52332:10"/>called <hi>Presbyterian,</hi> and the other <hi>Epiſ<g ref="char:EOLhyphen"/>copal,</hi> and that either of them hath been ſo zealous for eſtabliſhing its Govern<g ref="char:EOLhyphen"/>ment, that nothing will pleaſe either of them, if its Government be not of <hi>Di<g ref="char:EOLhyphen"/>vine Inſtitution;</hi> by which the one Party can damn the other.</p>
+            <p>But upon what grounds either of them can call it's Church Government <hi>Jure Divino,</hi> if it is not inſtitute in every point by God, as the <hi>Jewiſh</hi> Govern<g ref="char:EOLhyphen"/>ment was, I cannot comprehend.</p>
+            <p>For <hi>Firſt,</hi> That <hi>Church Government</hi> which is from <hi>God,</hi> muſt be revealed by him to his People ſome way or other; but no <hi>Scheme</hi> of <hi>Church Government</hi> hath as yet been revealed: Therefore all <hi>Church Government</hi> muſt be of Humane Inſtitution.</p>
+            <p>That no <hi>Scheme</hi> of <hi>Church Government</hi> is yet revealed, is evident; becauſe, there's none in all the <hi>New Teſtament,</hi> unleſs we are perſwaded, that when we read the words <hi>Biſhop, Deacon, Diaco<g ref="char:EOLhyphen"/>neſs,</hi> we have found the very individual <hi>Scheme</hi> of Government that was in uſe a<g ref="char:EOLhyphen"/>mongſt the <hi>Apoſtles.</hi> For my part I un<g ref="char:EOLhyphen"/>derſtand no more of their <hi>Church
+<pb n="12" facs="tcp:52332:11"/>Government</hi> by reading theſe words, than one can underſtand of the Civil Government of <hi>Scotland,</hi> if he heard on<g ref="char:EOLhyphen"/>ly of a <hi>Preſident</hi> of <hi>Council,</hi> or of ſome <hi>Officers</hi> of <hi>State.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> If the <hi>Apoſtles</hi> had conſtitute a <hi>Church Government,</hi> after which we were obliged to model one, as if it were immediatly from <hi>God;</hi> ſurely we muſt underſtand it in all its parts, otherwiſe we cannot follow it in all its <hi>Form;</hi> but the Practice of the <hi>Apoſtles,</hi> in conſti<g ref="char:EOLhyphen"/>tuting their <hi>Church Government,</hi> is but little known to us, therefore it's impoſ<g ref="char:EOLhyphen"/>ſible for us to follow their Practice, in forming a <hi>Church Government.</hi> Nor do we follow at preſent the Practice of the <hi>Apoſtles,</hi> in as far as we know it, other<g ref="char:EOLhyphen"/>wiſe there ſhould be no <hi>Biſhop</hi> by virtue of a <hi>Conge d'es lire,</hi> nor ſhould the <hi>Pres<g ref="char:EOLhyphen"/>byterian</hi> Government want <hi>Diaconeſses,</hi> and other Officers, which were in Uſe in the <hi>Primitive Churches;</hi> becauſe by the ſame Authority we either add or diminiſh from the Practice of the <hi>Apoſtles</hi> in <hi>Church Government</hi> (if it be an Article of Faith) by the ſame Authority we can change their Practice altogether.</p>
+            <pb n="13" facs="tcp:52332:11"/>
+            <p> 
+               <hi>Laſtly,</hi> I cannot believe, that any par<g ref="char:EOLhyphen"/>ticular <hi>Form</hi> of <hi>Church Government</hi> is pre<g ref="char:EOLhyphen"/>ſcribed to all particular <hi>Churches,</hi> other<g ref="char:EOLhyphen"/>wiſe we may reaſonably ſuppoſe, that the <hi>Apoſtles,</hi> who have been at the pains to writ down all that is neceſſary to be believed, would not have omitted to leave it to Poſterity.</p>
+            <p>Seeing then that we have no <hi>Scheme</hi> of <hi>Church-Government</hi> in the <hi>Scripture,</hi> where muſt we go next to prove either the <hi>Epiſcopal</hi> or <hi>Preſbyterian Govern<g ref="char:EOLhyphen"/>ment</hi> to be of <hi>Divine Inſtitution?</hi> I ſup<g ref="char:EOLhyphen"/>poſe it muſt be from the practice of the <hi>Fathers</hi> of the firſt <hi>Centuries;</hi> but if they were Men like unto our ſelves, capable of Error and Folly, I hope their practice will be of no more Authority, than they had reaſon on their ſide.</p>
+            <p>That the <hi>Fathers</hi> of the firſt <hi>Centuries</hi> were Men fallible like unto our ſelves may be proved by theſe two conſidera<g ref="char:EOLhyphen"/>tions.</p>
+            <p>Firſt, They have erred in points of the greateſt Conſequence. <hi>Juſtin Mar: tyr</hi> (the moſt ancient of all the Fathers, next to <hi>Clemens Romanus</hi>) was of Opi<g ref="char:EOLhyphen"/>nion, that the Saints ſhould Reign a
+<pb n="14" facs="tcp:52332:12"/>Thouſand Years in Jeruſalem, before the <hi>Reſurrection</hi> ſhould be accompliſhed: Which was the Opinion of the <hi>Chiliaſts,</hi> condemned by all the <hi>Orthodox. Ireneus</hi> mantained (<hi>Iren.</hi> contra <hi>Hoer.</hi>) that our <hi>Saviour</hi> was above Fourty Years when he ſuffered Death, contrary to what we are taught by the <hi>Evangeliſts. Cle<g ref="char:EOLhyphen"/>mens Alexandrinus</hi> believed (<hi>lib.</hi> 1. <hi>Strom.</hi>) that the Angels fell in Love with the firſt Women, and that this Love tranſported them ſo far, as to make them indiſcreetly to diſcover un<g ref="char:EOLhyphen"/>to them many ſecrets, which they ought to have concealed. The reaſon, I ſuppoſe made honeſt <hi>Clemens</hi> enter<g ref="char:EOLhyphen"/>tain ſuch a Notion, was, that the Wo<g ref="char:EOLhyphen"/>men in his days were more reſerved in diſcourſe, than they are at preſent. <hi>Tertul<g ref="char:EOLhyphen"/>ian;</hi> againſt all Reaſon, (<hi>lib.</hi> 1. <hi>Adver. Marc.</hi> makes God ſubject to the ſame paſ<g ref="char:EOLhyphen"/>ſions that we are ſubject to. And <hi>Cyprian,</hi> who was <hi>Turtllian</hi>'s admirer, hath man<g ref="char:EOLhyphen"/>tained many of his ridiculous Opinions.</p>
+            <p>Secondly, they have been at great Variance amongſt themſelves, and mantained different Opinions of great moment- <hi>Juſtin Martyr,</hi> and <hi>Ireoeneus</hi>
+               <pb n="15" facs="tcp:52332:12"/>promiſed us the pleaſures of a new <hi>Jeru<g ref="char:EOLhyphen"/>ſalem</hi> upon Earth, for a Thouſand Years, whilſt <hi>Dioniſius Alexandrinus</hi> and St. <hi>Hierome</hi> laught't at them for fools.</p>
+            <p>But grant that we ſhould follow the practice of the Fathers In <hi>Church-Go<g ref="char:EOLhyphen"/>vernment,</hi> let us ſee what we can learn from their Writings.</p>
+            <p>To perſwade us that there were ma<g ref="char:EOLhyphen"/>ny <hi>Biſhops</hi> in one <hi>Church,</hi> we have both the Authority of the <hi>Holy Scrip<g ref="char:EOLhyphen"/>tures</hi> and of <hi>Clemens Romanus</hi> (<hi>Epiſt.</hi> 1. <hi>ad Cor.</hi>) Yet <hi>Ignatius Tertullian</hi> and <hi>Cyprian</hi> affirm, that there was and ought to be, but one <hi>Biſhop</hi> in a <hi>Church</hi> at a time. Now whether to believe theſe Fathers or the <hi>Holy Scriptures,</hi> or to reconcile them both, by telling that the words <hi>Biſhop</hi> and <hi>Preſbyter</hi> were uſed promiſcuouſly, is left to the Diſ<g ref="char:EOLhyphen"/>cretion of every diſputing Divine.</p>
+            <p>A whole Church did meet together to manage their own Affairs, when the Schiſm of <hi>Feliciſſimus</hi> was to be debated, it was to be done according to the Will of the People, and by the conſent of the <hi>Laity,</hi> as <hi>Cyprian</hi> witneſſeth in his 10 Epiſt. but either this was the Cuſtom
+<pb n="16" facs="tcp:52332:13"/>of all the particular <hi>Chriſtian Churches,</hi> or only that of <hi>Carthage;</hi> if it was the Univerſal Cuſtom we don't know, and that it was the practice of the <hi>Cartha<g ref="char:EOLhyphen"/>ginian</hi> Church, doth not bind all other Churches to follow it.</p>
+            <p>If <hi>Presbyters</hi> had not the ſame Inhae<g ref="char:EOLhyphen"/>rent Right to perform all the Eccleſia<g ref="char:EOLhyphen"/>ſtical Offices, which the <hi>Biſhops</hi> had, I don't underſtand why <hi>Cyprian</hi> being Exiled Writes (<hi>Epiſt.</hi> 5.) to his Cler<g ref="char:EOLhyphen"/>gy, exhorting and begging of them to diſcharge their own and his Office too; that ſo nothing might be wanting ei<g ref="char:EOLhyphen"/>ther to <hi>Diſcipline</hi> or <hi>Diligence.</hi> Ne<g ref="char:EOLhyphen"/>vertheleſs, according to the preſent practice, where <hi>Epiſcopacy</hi> is in faſhion, no body can ordain but a <hi>Biſhop.</hi>
+            </p>
+            <p>
+               <hi>Preſbyters</hi> were not Eſtential to the Conſtitution of a Church, for <hi>Tertullian</hi> in his <hi>Exhort. ad Caſtitatcm,</hi> ſayeth, that where there are no <hi>Preſbyters,</hi> the <hi>Bi<g ref="char:EOLhyphen"/>ſhop</hi> alone Adminiſters the two <hi>Sacra<g ref="char:EOLhyphen"/>ments,</hi> of the Lord's <hi>Supper</hi> and <hi>Bap<g ref="char:EOLhyphen"/>tiſm:</hi> Yet how there can be a <hi>Biſhop</hi> without <hi>Preſbyters</hi> (if the word <hi>Biſhop</hi> be taken in the ſenſe it is uſed now a dayes) muſt be the ſame thing as if
+<pb n="17" facs="tcp:52332:13"/>a Man could be called the Father of a <hi>Familie,</hi> who had none.</p>
+            <p>When <hi>Cyprian</hi> maketh an <hi>Apology</hi> to his <hi>Preſbytery</hi> (or <hi>Commune Concilium</hi> as he termeth it) for ordaining <hi>Aure<g ref="char:EOLhyphen"/>lins</hi> a <hi>Lector,</hi> without their conſent; we don't know whether it be out of Civility to them, or out of his duty, the words are, Epſt. 38. <hi>In ordinatio<g ref="char:EOLhyphen"/>nibus clericis ſolemus vos ante conſulere, &amp; mores ac merita ſingulorum communi conſilio ponderare,</hi> &amp;c. where the Word <hi>ſolemus</hi> may be taken, as if in duty he ought to do ſo.</p>
+            <p>A <hi>Biſhop</hi> was Elected both by the Cler<g ref="char:EOLhyphen"/>gy &amp; <hi>Laity</hi> of his Pariſh, as we learn from the Death of Biſhop <hi>Anterus</hi> in whoſe place <hi>Falianus</hi> was Elected at <hi>Rome,</hi> for, fayeth <hi>Euſebius, lib.</hi> 6. <hi>c.</hi> 28. All the People met together in the Church to chuſe a Succeſſor, propoſing ſeveral illu<g ref="char:EOLhyphen"/>ſtrious and eminent Perſonages as fit for Office, whilſt not one ſo much as thought on <hi>Falianus</hi> then preſent, till a <hi>Dove</hi> miraculouſly came and ſat upon his head, in the ſame manner as the <hi>Ho<g ref="char:EOLhyphen"/>ly Ghoſt</hi> formerly deſcended on our <hi>Savi<g ref="char:EOLhyphen"/>our,</hi> and then all the People guided as
+<pb n="18" facs="tcp:52332:14"/>it were with one Divine Spirit, cryed out with one Mind and Soul, that <hi>Fali<g ref="char:EOLhyphen"/>anus</hi> was moſt worthy of the Biſhop<g ref="char:EOLhyphen"/>rick, and ſo ſtraightways taking him, they placed him in the <hi>Epiſcopal Throne.</hi>
+            </p>
+            <p>At preſent we know <hi>Biſhops</hi> are cho<g ref="char:EOLhyphen"/>ſen only by the Clergy, contrary to the Practice of the Church of <hi>Rome,</hi> as we have ſeen in the Example of <hi>Falianus.</hi>
+            </p>
+            <p>The People had power to depoſe their own Biſhops, as the People of <hi>Spain</hi> did <hi>Martiales</hi> and <hi>Baſilides,</hi> and who had their Proceedings ratified by an <hi>African Council</hi> aſſembled in the Year 258. <hi>Cy<g ref="char:EOLhyphen"/>prian</hi> Epiſt. 68. But in what Caſes, People could depoſe a Biſhop, is not de<g ref="char:EOLhyphen"/>termined by Antiquity.</p>
+            <p>In the Primitive times, every Chriſti<g ref="char:EOLhyphen"/>an was conſidered both as a Member of the Univerſal Church, and as one of that particular Church where he lived; if therefore he erred in any Article of Faith, he was judged guilty of Hereſie: And if he was at Variance with his Biſhop, he was guilty only of Schiſm, and conſequent<g ref="char:EOLhyphen"/>ly deſerved either the Name of Heretick or Schiſmatick. Yet it's clear, that at preſent one may be at Variance with his
+<pb n="19" facs="tcp:52332:14"/>Biſhop, without being reputed Schiſma<g ref="char:EOLhyphen"/>tick: For Example, if a particular Man in the Dioceſs of <hi>Tork</hi> ſhould have a per<g ref="char:EOLhyphen"/>ſonal prejudice againſt his Biſhop, and would not Communicat with him; al<g ref="char:EOLhyphen"/>tho in the time of <hi>Cyprian,</hi> he would have been guilty of Schiſm, had he been at Variance with his Biſhop.</p>
+            <p>From this ſhort account, and what more could be collected about the Prac<g ref="char:EOLhyphen"/>tice of the Fathers, from their Writings, in Church Government, we can learn nothing but Titles, Names, and ſome general Rules obſerved in the Exerciſe of the Governments of particular Chur<g ref="char:EOLhyphen"/>ches, which made up the Univerſal Church; therefore it muſt be an Error, to aſſert that either the Epiſcopal Govern<g ref="char:EOLhyphen"/>ment in <hi>England,</hi> or the Presbyterian in <hi>Scotland,</hi> as they are now conſtitute, was in faſhion in the Primitive Ages.</p>
+            <p>What then in Reaſon ought to be affir<g ref="char:EOLhyphen"/>med for Truth about Church-Govern<g ref="char:EOLhyphen"/>ment, appears to be, That the Apoſtles, and thoſe they appointed to preach the Law of their Maſter, living in times when they had no Civil Government to protect them, were perſecuted and har<g ref="char:EOLhyphen"/>raſſed
+<pb n="20" facs="tcp:52332:15"/>from place to place, having moſt of the Magiſtrats and Philoſophers to be their declared Enemies; therefore it was their greateſt buſineſs only to preach a Crucified Saviour, who was riſen from Death and aſcended up into Heaven, to be Mediator betwixt his Father and all People that would follow the Laws of his Goſpel; which Laws they taught to all their Proſelyts, which made up the Catholick Church. And that the Mem<g ref="char:EOLhyphen"/>bers of it might be the better inſtructed in the Myſteries of their Religion, it was neceſſary to have them erected in<g ref="char:EOLhyphen"/>to particular Churches or Societies, as the Circumſtances of the Times would allow: Which accordingly they did, and regulated their outward Forms, that all things might be done in Order and De<g ref="char:EOLhyphen"/>cency. Hence aroſe the neceſſity of Church-Officers to keep all things right, and to put the Divine Laws in Execu<g ref="char:EOLhyphen"/>tion.</p>
+            <p>The Biſhop was the firſt Presbyter in Honour for his Apoſtolick Qualities amongſt other Presbyters, who were ſo many new Apoſtles to be ſent abroad to convert the <hi>Pagans,</hi> and to conſtitute
+<pb n="21" facs="tcp:52332:15"/>new Churches, as they found Believers, after what forms were moſt convenient. And by ſuch means were Churches e<g ref="char:EOLhyphen"/>rected at <hi>Jeruſalem, Alexandria, Rome, Carthage,</hi> &amp;c. Which Churches, ſo long as they wanted the Protection of Civil Magiſtrats, ſo long did they keep a good Correſpondence amongſt themſelves, having frequent Meetings to ſuppreſs all Hereſies, which Meetings were called Councils.</p>
+            <p>Now, may we be of Opinion, That our Saviour did forſee that the Chriſtian World would be divided into diſtinct ſecular Governments, and that each Government would have the order kept amongſt the Men ſet apart for Divine Service, which was agreeable to it's Conſtitution. For tho particular Churches might have different Governments; yet the Univerſal Church is no more diſmemb'red, than if a King who had different Countreys in Subjection, could be denyed to be Maſter of them all; becauſe that his Laws were put in Exe<g ref="char:EOLhyphen"/>cution in one of them, by a Viceroy; in another, by a few Noble Men; and in the Third, by a parcel of Commons.</p>
+            <pb n="22" facs="tcp:52332:16"/>
+            <p> To ſtrengthen this Opinion, we know, That no ſooner the <hi>Roman</hi> Emperours and their Subjects become Chriſtians, but there was an Analogy betwixt their Civil and Eccleſiaſtical Governments: For the whole Empire being divided in<g ref="char:EOLhyphen"/>to Fourteen Dioceſſes, each of them comprehending ſeveral Provinces; and every province ſeveral Cities: Every City, as it had a temporal Magiſtrat for executing Juſtice, ſo was there alſo a Biſhop, for Spiritual Order and Govern<g ref="char:EOLhyphen"/>ment. Every Province, as it had a Pro<g ref="char:EOLhyphen"/>conſul, whoſe Seat was uſually at the Metropolis; So there was in the ſame City an Arch-Biſhop, or, Metropolitan. In every Dioceſs there was a <hi>Vicarius,</hi> who dwelt in the principal City of the Dioceſs, where all Imperial Edicts were publiſhed: There was alſo a Primat to equal him, and to whom the Determi<g ref="char:EOLhyphen"/>nation of all differences of the Clergy did belong. And laſtly, as the Fourteen Dioceſſes were ruled by four <hi>Praetorian Prefects</hi> in civil Matters; ſo were they governed in Church Affairs by Patri<g ref="char:EOLhyphen"/>archs, who were ſuperiour to Primats, by reaſon of the Dignity of theſe Cities,
+<pb n="23" facs="tcp:52332:16"/>where they had their Sees fixed, as at <hi>Rome, Conſtantinople, Alexandria, Anti<g ref="char:EOLhyphen"/>och,</hi> and <hi>Jeruſalem.</hi> But to what hight Church-men can improve their Power, may be learned from the Patriarchs of <hi>Rome,</hi> who had once almoſt enſlaved the whole Chriſtian world, by their Supre<g ref="char:EOLhyphen"/>macy, Purgatory, Indulgences, and Pardons, auricular Confeſſions and Caeli<g ref="char:EOLhyphen"/>bacy of the Clergy.</p>
+            <p>As there is a neceſſity of ſome Church-Government to be in every Common-Wealth, that by its Diſcipline, its Mem<g ref="char:EOLhyphen"/>bers may be keep'd in duty, both to God, and to their fellow Subjects; So every Church-Government ought to ſympa<g ref="char:EOLhyphen"/>thize with that Civil Government it meets with, to make up one Chriſtian Society.</p>
+            <p>But to ſhew what Church and Civil Governments agree beſt together, let us take a ſhort view of all them which are in uſe at preſent in the Chriſtian world.</p>
+            <p>Tho Man hath a Natural Inclination to Society, yet that which conſtitutes a Body Politick, is Confederation and a Conſent of Governours and Governed; from which we have the different kinds
+<pb n="24" facs="tcp:52332:17"/>of Civil Government, Monarchy, Ariſ<g ref="char:EOLhyphen"/>tocracy and Democracy. And paralel to theſe, are three kinds of Church-Go<g ref="char:EOLhyphen"/>vernment, Hierarchy, Superintendency and Presbytrie.</p>
+            <p>Monarchy is a Government that's veſ<g ref="char:EOLhyphen"/>ted in one ſingle Perſon, who is abſo<g ref="char:EOLhyphen"/>lute, and hath a Right of conſtituting and giving Laws to all in general, and to each in particular under his Domini<g ref="char:EOLhyphen"/>on: To which agrees that Church-Go<g ref="char:EOLhyphen"/>vernment Hierarchy, compoſed of Arch-Biſhops, Biſhops, <hi>&amp;c.</hi> And of ſuch two Governments was conſtitute the <hi>Roman</hi> Empire, in the time of <hi>Conſtantine.</hi>
+            </p>
+            <p>Ariſtocracy is the Government of a few of the greateſt power, and conform to it, is Superintendency: Which is a Church-Government, where a parcel of Members are all equal in power, and by the ſame are diſtinguiſhed from the reſt of the Clergy.</p>
+            <p>Democracy is a Government, in which the whole Body of the People hath ſome ſhare; and to this is conſonant Presby<g ref="char:EOLhyphen"/>trie: Which is a Church-Government, where all the Clergy are equally con<g ref="char:EOLhyphen"/>cerned.</p>
+            <pb n="25" facs="tcp:52332:17"/>
+            <p> To none of the above-mentioned kinds of Civil Government, doth the Civil Governments of <hi>Scotland</hi> and <hi>Eng<g ref="char:EOLhyphen"/>land</hi> belong; which being both of the ſame Nature, I ſhall call them by one Name, <hi>a Limited Monarchical Govern<g ref="char:EOLhyphen"/>ment:</hi> Which is a Government that's manag'd by one Man, according to the Laws of the Society where he reigns, which Laws are made by him in Con<g ref="char:EOLhyphen"/>junction with his People. So that he hath his Prerogatives, and they their Properties; and ſuch a Government hath the Advantage of all others which can degenerat into Tyrannies.</p>
+            <p>The Government of <hi>Scotland</hi> and <hi>England</hi> being a limited Monarchy, quite oppoſit to an abſolute one; It fol<g ref="char:EOLhyphen"/>lows, that ſome other kind of Church-Government muſt be more agreeable to it than <hi>Hierarchy,</hi> which agrees only with an abſolute Monarchy. Becauſe, the People having lodged ſo many Pre<g ref="char:EOLhyphen"/>rogatives with their King, as the power of declaring War, of making Peace, of ſending Ambaſſadors, of making Lea<g ref="char:EOLhyphen"/>gues and Treaties, and of Levying of Men and Arms by Sea and Land; if
+<pb n="26" facs="tcp:52332:18"/>this King is ill-inclined, what wants he more but Money to change the very foundamental Laws of his Government, and to make Parliaments altogether uſe<g ref="char:EOLhyphen"/>leſs? which cannot be raiſed from the Subject without their conſent, or, which is all one, without the conſent of Parliament. Therefore the People ought to take particular care in chooſeing Men to be their Repreſentatives in Par<g ref="char:EOLhyphen"/>liament, that they be Men of Honour and Probity, whom the Monarch can noways influence to betray the Liber<g ref="char:EOLhyphen"/>ties of their Countrey. And ſurely it muſt ſucceed the better with it, the fewer Members of Parliament depend upon the King.</p>
+            <p>What power the Kings of Great <hi>Bri<g ref="char:EOLhyphen"/>tain</hi> have had to Cajol Biſhops, being conſtant Members of the Parliament, into a Complyance with their deſigns, the Hiſtory of Paſt-times muſt declare.</p>
+            <p>
+               <hi>Conſtantine,</hi> as he was the firſt Chriſti<g ref="char:EOLhyphen"/>an Emperor, ſo had he a great reſpect for the profeſſors of that Religion. We read in his life, That he would not on<g ref="char:EOLhyphen"/>ly regal its Teachers at his own Table, but that he never went a Journey with<g ref="char:EOLhyphen"/>out
+<pb n="27" facs="tcp:52332:18"/>ome of them along with him, &amp; that, at the Council of <hi>Nice,</hi> ſo great was his Complaiſance for Church-men, that he refuſed to ſit down in their preſence. The Clergy on the other hand being ſenſible of the Emperours Kindneſs, continue with him the old Title of <hi>Pontifex Maximus,</hi> by virtue of which, he had Right of Eccleſiaſtical Function: reſerving for themſelves all the Miniſterial Offices. So <hi>Conſtantine</hi> was <hi>Rex idem hominum, Phoebique Sacer dos.</hi>
+            </p>
+            <p>A mutual good underſtanding was ſo cultivated amongſt the ſucceeding Em<g ref="char:EOLhyphen"/>perours and the Clergy, that they had ſeveral Laws made in their ſavour, (as may be ſeen in the Titles of the <hi>Codex de ſacroſanctis Eccleſ: de Epiſc: &amp;Cler:</hi>) till the Biſhops of <hi>Rome,</hi> taking the oppor<g ref="char:EOLhyphen"/>tunity of the Diviſion of the <hi>Roman</hi> Empire, being over-run by Barbarous Nations, and of the Ignorance of the times, did ſet up for it themſelves, un<g ref="char:EOLhyphen"/>der the Specious Title of <hi>Chriſts Vicar</hi> And how far they carried their Authoriy with Temporal Princes for ſome Ages, is evident by the Inſolence of <hi>Hilde<g ref="char:EOLhyphen"/>brand;</hi> who rebelled againſt his lawful
+<pb n="28" facs="tcp:52332:19"/>Emperor <hi>Henry</hi> the fourth, depriving him of all that reſpect which was due unto him from a Biſhop of <hi>Rome.</hi>
+            </p>
+            <p>It hath been the Policy of the Papal Court, to keep the Clergy of every Common-wealth in a certain Hierarchy; That it might the more convenient<g ref="char:EOLhyphen"/>ly challenge a Supremacy over them; and to the end that they might depend abſolutely upon their Intereſt, for to op<g ref="char:EOLhyphen"/>poſe all Temporal Princes, who durſt do any thing in prejudice of the Holy See, by Excommunicating and depriving them of the Allegiance of their Sub<g ref="char:EOLhyphen"/>jects.</p>
+            <p>In ſuch a Condition was both the Clergy of <hi>England</hi> and <hi>Scotland,</hi> in the time of King <hi>Henry</hi> the Eight of <hi>Eng<g ref="char:EOLhyphen"/>land.</hi> Who, being a wiſe Prince and diſobliged by the Pope in the Marriage of <hi>Anna Bullen,</hi> took the occaſion of a Critical Minut to throw off the Popes Supremacy over his Clergy, and to aſ<g ref="char:EOLhyphen"/>ſert it for himſelf, according to the Practice of the Kings of <hi>England.</hi> And finding that his Clergy was ſatisfied with the change, he continued the Antient Popiſh <hi>Hierarchy,</hi> making the
+<pb n="29" facs="tcp:52332:19"/>Biſhops of his Kingdom capable of the greateſt Civil Employments in it.</p>
+            <p>If the Reformation had begun in <hi>Scot<g ref="char:EOLhyphen"/>land</hi> with publick Authority, as it did in <hi>England,</hi> I doubt not but Epiſcopacy had been continued there, in place of that Church Government introduced by <hi>Knox</hi> and others, after the <hi>Geneva</hi> Model. Be<g ref="char:EOLhyphen"/>cauſe Supream Civil Powers know how much it is their Intereſt, to be of the Clergies ſide: And that it is eaſier to have a few Church Men to manage, than a Multitude. Of this King <hi>James</hi> is an Example, who was not only a great Favourer of the Clergy, but thought it his Intereſt, ſo ſoon as he was ſole Mo<g ref="char:EOLhyphen"/>narch of this whole Iſland, to eſtabliſh Epiſcopacy in <hi>Scotland,</hi> according to that Maxim, <hi>No Biſhop, No King.</hi>
+            </p>
+            <p>Now let us ſee what great Feats Biſhops have done, in the Management of the <hi>Britiſh</hi> Affairs, and accordingly we ſhould make our Judgment concerning the Agreeableneſs of Epiſcopacy and our Government, which is a Limited Monarchy.</p>
+            <p>In the Reign of King <hi>James</hi> the Firſt of <hi>Great-Britain,</hi> there were Biſhops,
+<pb n="30" facs="tcp:52332:20"/>no doubt, who complyed with him in every Counſel, that was for the Diſho<g ref="char:EOLhyphen"/>nour of his Crowns. For we find the Bi<g ref="char:EOLhyphen"/>ſhop of <hi>Lincoln,</hi> then Lord Keeper of the Great Seal of <hi>England,</hi> in his Sermon at King <hi>James</hi> his Funeral (either to flat<g ref="char:EOLhyphen"/>ter his Succeſſor, or, to impoſe upon the World) making a paralel betwixt him and King <hi>Solomon,</hi> his Text being 1 <hi>King.</hi> 11.41, 42, 43. Now either that Biſhop was perſwaded of the Verity of what he preached, or not; If he was perſwaded, that King <hi>James</hi> was the <hi>Solomon</hi> of his Age, then ſurely, he could not refuſe to go along with him in all his Counſels: And if he preached contrary to what was his Opinion, then, he was capable at Command to be an Haickny Courtier.</p>
+            <p>In King <hi>Charles</hi> the Firſt's time, it was Biſhop <hi>Laud,</hi> and others, that occaſio<g ref="char:EOLhyphen"/>ned all the Misfortunes that befel that Prince, both unhappy in his Council, and in his Opiniatritie.</p>
+            <p>In King <hi>Charles</hi> the Second's Reign, we never heard of any of his Eccleſiaſtical Counſellors, that e're Diſcourted them<g ref="char:EOLhyphen"/>ſelves, for diſſwading him from his Effe<g ref="char:EOLhyphen"/>minat Way of Living, or from following
+<pb n="31" facs="tcp:52332:20"/>too much <hi>French</hi> Counſel. On the con<g ref="char:EOLhyphen"/>trary, we know, that nothing was more preached up, than Paſſive Obedience, founded on the Prerogatives of the Kings of <hi>Iſrael,</hi> as if the Laws of <hi>Moſes</hi> had been calculat for our Kings: And, That nothing was more tickling to the Biſhops, than the Oppreſſion of their Fellow Subjects of the Presbyterian Per<g ref="char:EOLhyphen"/>ſwaſion.</p>
+            <p>In the time of the late King <hi>James,</hi> It is true, there were ſome Biſhops in <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> who ſtood for their Religion, in Oppoſition of Popery; yet the World knows, how well natur'd the Biſhops of <hi>Scotland</hi> were upon that Point.</p>
+            <p>And in this preſent Reign, we all know, how that Biſhops of <hi>England,</hi> did concur to ratifie Proclamations iſſued out againſt the <hi>Scots</hi> in the <hi>Weſt-Indies,</hi> which were of a Nature, both below the Meekneſs of Chriſtianity, and the Gene<g ref="char:EOLhyphen"/>roſity of the <hi>Engliſh</hi> Nation.</p>
+            <p>Wiſe Governments have always had a very mean Opinion of Church-Mens Po<g ref="char:EOLhyphen"/>liticks, as particularly that of <hi>Venice;</hi> for whenever any thing occurs of great Moment there, to be debated in the Se<g ref="char:EOLhyphen"/>nat;
+<pb n="32" facs="tcp:52332:21"/>before any Suffrage paſſeth, they cauſe Proclamation to be made for all Prieſts to retire.</p>
+            <p>It is likewiſe remarkable, That he who is called the Divine of the State, is choſen commonly ſuch an one, who is more Politician, than Bigot in Religion. And of ſuch a Character was Father <hi>Pe<g ref="char:EOLhyphen"/>dro Paulo,</hi> who wrote the Hiſtory of the Council of <hi>Trent.</hi>
+            </p>
+            <p>Too much Learning or Wiſdom ſel<g ref="char:EOLhyphen"/>dom agree together; becauſe, for the moſt part, too Learned Men are meer Schollars, (&amp; ſuch were moſt of the Biſhops of <hi>Eng<g ref="char:EOLhyphen"/>land</hi>) which of all Men are the moſt dange<g ref="char:EOLhyphen"/>rous when they eſpouſe a Party: For, both their Learning and Zeal can concur to<g ref="char:EOLhyphen"/>gether, to <hi>make Black ſeem White, or White Black,</hi> and to impoſe what Opinions they pleaſe upon the well meaning People. Now when ſuch Men are perpetual Mem<g ref="char:EOLhyphen"/>bers of Parliament, who have Depen<g ref="char:EOLhyphen"/>dence upon a Limited Monarch, by vir<g ref="char:EOLhyphen"/>tue of a <hi>Conge d'es Lire,</hi> the Laick Sub<g ref="char:EOLhyphen"/>jects cannot be circumſpect enough a<g ref="char:EOLhyphen"/>bout their Liberties.</p>
+            <p>Its known, that in the time of Pope<g ref="char:EOLhyphen"/>ry, the Pride and Ambition of the Clergy
+<pb n="33" facs="tcp:52332:21"/>was a Curſe to that Civil Government, where they had any medling; carrying themſelves always Arbitrarly and Tyran<g ref="char:EOLhyphen"/>nically, and committing the greateſt So<g ref="char:EOLhyphen"/>leciſms in Politicks. And we may ob<g ref="char:EOLhyphen"/>ſerve for the moſt part, that the Clergy of our Religion, who have concerned themſelves with Worldly Affairs, have been the greateſt Promoters of Civil Diſtempers, that have ſhaken the Foun<g ref="char:EOLhyphen"/>dations either of Church or State: And the very Trumpets which have ſounded to Popular Furies, Martial Alarms, and never better will befal Church-Men, when they act without their own Sphere.</p>
+            <p>What ſhould move the <hi>Engliſh</hi> to car<g ref="char:EOLhyphen"/>reſs Church-Men for Counſellors and Members of Parliament, I cannot com<g ref="char:EOLhyphen"/>prehend; for were their Biſhops educat as the Cardinals are, (who are better acquainted with this World, than that to come) we might hope for as great an Eſſay of their Wit in State-Affairs, as ever Cardinal <hi>Richelieu,</hi> or, Cardinal <hi>Mazarine</hi> did ſhew to the World. But on the contrary, they know more of the World to come, and are educat al<g ref="char:EOLhyphen"/>together
+<pb n="34" facs="tcp:52332:22"/>according their Characters of Church-Men. Nor do I underſtand what is the Reaſon, that there's ſo juſt a Pro<g ref="char:EOLhyphen"/>portion, betwixt the Living of a Noble<g ref="char:EOLhyphen"/>man, and a Peaſant, among the <hi>Engliſh</hi> Laicks: And ſo great a Diſproportion betwixt a Biſhop and a Twenty Pound Curat, among their Eccleſiaſticks For ſurely it is unjuſt, that the Curat ſhould be preaching the Goſpel, and ſtarving at the ſame time: Whilſt his Biſhop is driving to Court with a Coach and ſix Horſes, to make an handſome Leg to his Temporal Lord.</p>
+            <p>I'll now proteſt, That the Liberty I take of writing after this manner, may not give Offence to the Clergy of any Church; nor that I may meet with the common Fate of Reconcilers, to have Blows for my Pains; being, I'm of no Party, but a Lover of that Church Go<g ref="char:EOLhyphen"/>vernment, which ſympathizes beſt with the Civil Government it is joyn'd with. So that, if I were Subject to an Abſo<g ref="char:EOLhyphen"/>lute Monarch, I ſhould eſteem Epiſco<g ref="char:EOLhyphen"/>pacy as moſt agreeable to his Govern<g ref="char:EOLhyphen"/>ment; But whilſt I live in <hi>Scotland</hi> or <hi>England,</hi> I muſt love that Church Go<g ref="char:EOLhyphen"/>vernment,
+<pb n="35" facs="tcp:52332:22"/>which is leaſt dangerous to the Peoples Liberties. I leave it there<g ref="char:EOLhyphen"/>fore to the Judgment of every Unbyaſſed Laick, to determine, if Presbytrie, or Superintendency be not more conveni<g ref="char:EOLhyphen"/>ent for the People of a Limited Monar<g ref="char:EOLhyphen"/>chy, than Epiſcopacy, as it's now eſta<g ref="char:EOLhyphen"/>bliſhed in <hi>England,</hi> and leſs capable to comply with an Ambitious Prince, for the undermining the Fundamental Laws of his Kingdom, after the Example of the <hi>Daniſh</hi> Clergy, which were the In<g ref="char:EOLhyphen"/>ſtruments of making their Kings Abſo<g ref="char:EOLhyphen"/>lute, to the utter Ruine of all their An<g ref="char:EOLhyphen"/>cient Nobility.</p>
+            <p>I conclude with this following Cha<g ref="char:EOLhyphen"/>racter, which I wiſh every Church-Man might merit.</p>
+            <p>One who is delivered of the Prepoſ<g ref="char:EOLhyphen"/>ſeſſions and Prejudices of Complexion, Education and Implicit Authority, know<g ref="char:EOLhyphen"/>ing that all Mankind are puzled even in the Search of the moſt obvious things. One, who can diſtinguiſh between the true Articles of Faith, and the pitiful ſenſeleſs Triffles of Swiming Brains. One who knows, That the Love of God is not Fondneſs, nor his Juſtice
+<pb n="36" facs="tcp:52332:23"/>Cruelty; and that God acts not by meer Arbitrary Will, but by the Perfections of his own Nature. One, who not for<g ref="char:EOLhyphen"/>getting to do Good Works, endeavours to go to Heaven only by the Merits of Chriſt. One, whoſe Zeal never exceeds his Reaſon. One, who abounds with Charity, Humility and Meekneſs. One, who purges Religion from all Fantaſtick and Unintelligible Muming, and reduces it to its Native Plainneſs and Simplici<g ref="char:EOLhyphen"/>ty. One, who underſtands himſelf, when he Prays or Preaches. And laſtly, One, who followeth in Living, as near as poſ<g ref="char:EOLhyphen"/>ſible, the Practice of the Apoſtles.</p>
+            <p>Moſt happy would that People be, who lived with a Church-Government, compoſed of Members of the foreſaid Character: For ſurely, Vice and Athe<g ref="char:EOLhyphen"/>iſm would be baniſhed, nor could Prieſt-Craſt, or Knavery, have any place a<g ref="char:EOLhyphen"/>mongſt them.</p>
+         </div>
+         <div type="essay">
+            <pb n="37" facs="tcp:52332:23"/>
+            <head>AN ESSAY Concerning The <hi>VNION</hi> OF ENGLAND AND SCOTLAND Into one MONARCHY</head>
+            <p>OF Old, this Iſland of Great <hi>Brit<g ref="char:EOLhyphen"/>tain</hi> was divided into ſeveral diſtinct Governments, amongſt which there have been many bloody and fatal ſtruglings, in Defence of their reſpective Intereſts and Liberties. And no doubt, but, untill this Day, it had continued a Theater of Cruelty and Barbarity, if
+<pb n="38" facs="tcp:52332:24"/>all its Inhabitants had not been United in Subjection, by the happy Succeſſion of King <hi>James</hi> the Sixth <hi>of Scotland,</hi> to the Crown of <hi>England</hi> in the year 1603.</p>
+            <p>King <hi>James,</hi> who did not always pre<g ref="char:EOLhyphen"/>fer the Intereſts of his Kingdoms to his own privat ends, never gave a greater Teſtimony of his Affection to them, than in the year 1604; when he pro<g ref="char:EOLhyphen"/>poſed to the <hi>Engliſh</hi> Parliament, an Union of the Kingdoms of <hi>Scotland</hi> and <hi>England:</hi> Which Motion was at firſt embraced with the general applauſe of both People, as the only Mean to ex<g ref="char:EOLhyphen"/>tinguiſh the Memory of all former Animoſities.</p>
+            <p>To bring that Union to a good iſſue, the Parliaments of both Nations, at his Majeſties deſire, did nominat Com<g ref="char:EOLhyphen"/>miſſioners to meet at <hi>Weſtminſter,</hi> which accordingly they did: and agreed on ſeveral Articles, to be preſented to King and Parliaments, for their Ratifi<g ref="char:EOLhyphen"/>cation. But in the year 1608, the <hi>Engliſh</hi> Parliament would approve only the Article for aboliſhing all Hoſtile Laws, that had been in uſe againſt either Na<g ref="char:EOLhyphen"/>tion,
+<pb n="39" facs="tcp:52332:24"/>before King <hi>James</hi> his Arrival in <hi>England.</hi>
+            </p>
+            <p>The Reaſon, I ſuppoſe, made <hi>Eng<g ref="char:EOLhyphen"/>land</hi> neglect that opportunity of Uniting with <hi>Scotland,</hi> was, That either it was not ſenſible of the Advantages it might gain by ſuch an Union, (tho the judicious Lord <hi>Verulam</hi> did endeavour to demon<g ref="char:EOLhyphen"/>ſtrat them by his Grave Speech) or, That the Parliament of <hi>England</hi> did ſu<g ref="char:EOLhyphen"/>ſpect their new Monarch of having ſome other deſign, than the Intereſts of his Kingdoms by that Union, of which he was the firſt propoſer.</p>
+            <p>King <hi>Charles</hi> the firſt, who was brave, Magnificent, and but too conſtant in adhering to ill Counſel, was moſt of his life ſo harraſſed by his own Subjects, that he never had time to think upon that Union, which his Father could not finiſh: And <hi>Cromwel,</hi> who, after but cher<g ref="char:EOLhyphen"/>ing of him, uſurped his Power, never thought any further of the Intereſt of <hi>Britain,</hi> but to gratifie his own Ambi<g ref="char:EOLhyphen"/>tion.</p>
+            <p>King <hi>Charles</hi> the Second, after his Reſtoration to his Kingdoms, had all the opportunity poſſible, that Eaſe and
+<pb n="40" facs="tcp:52332:25"/>plenty could afford him, to promot their mutual Happineſs, did therefore propoſe an Union betwixt <hi>Scotland</hi> and <hi>England</hi> in the Year 1670; and did nominat for that end, ſeveral Commiſ<g ref="char:EOLhyphen"/>ſioners under his great Seal, but all to no purpoſe; becauſe, ſuch an Union could not ſympathize with the Politicks of theſe days, which were to divide, after ſuch manner, the People of the whole Iſland in Religion, and Intereſt, that by continually playing one party againſt another, His Majeſty might be in a Condition to ſway the Scepter in Peace, and to introduce into his King<g ref="char:EOLhyphen"/>doms any Religion ſuited beſt with his Humour.</p>
+            <p>And for King <hi>James,</hi> he was ſo little inclined to promot an Union, that the thoughts of another World did wholly extinguiſh any Concern he might have had, for advancing the Intereſt of his Kingdoms in this.</p>
+            <p>His preſent Majeſty hath done many great Actions, both for the well fare of his Kingdoms, and for his own Repu<g ref="char:EOLhyphen"/>tation; yet, ther's nothing can contri<g ref="char:EOLhyphen"/>bute more to the Glory of his Family,
+<pb n="41" facs="tcp:52332:25"/>than Uniting the Kingdoms of <hi>Eng<g ref="char:EOLhyphen"/>land</hi> and <hi>Scotland</hi> into one Monarchy: So that when he diſtributes Juſtice, (both their Intereſts being the ſame) none of them will have reaſon to com<g ref="char:EOLhyphen"/>plain. He hath already ſeveral times recommended an Union to the <hi>Engliſh</hi> Parliament; but it were to be wiſh'd that His Majeſty would be pleaſed to ordain effectual Means to be uſed for that end.</p>
+            <p>There's an Union already betwixt both Nations in Language, Cuſtoms, Religion, and in Subjection, which can<g ref="char:EOLhyphen"/>not laſt, unleſs both Governments be unit<g ref="char:EOLhyphen"/>ed into one Body Politick. And to Con<g ref="char:EOLhyphen"/>ſummat that, there muſt be a great Zeal and Frankneſs in the Members of both Parliaments, That, all triffling and a<g ref="char:EOLhyphen"/>muſing preliminary Articles being for<g ref="char:EOLhyphen"/>got, Commiſſioners may be deputed from them both, Men of Honour and Probity, no Courtiers, but free of all prejudice againſt either Nation, for the better adjuſting the two following Ar<g ref="char:EOLhyphen"/>ticles.</p>
+            <p>The <hi>Firſt</hi> is, That the Parliaments in Name of both Kingdoms, may con<g ref="char:EOLhyphen"/>ſent
+<pb n="42" facs="tcp:52332:26"/>to joyn together for making up one Parliament of Great <hi>Britain.</hi>
+            </p>
+            <p>The <hi>Second</hi> is, That for the taking away all difference about Place, that may ariſe among the Nobility of both Kingdoms, let them be Marſhalled in<g ref="char:EOLhyphen"/>terchangeably; As for Example, Firſt, The Eldeſt Duke of <hi>England,</hi> then the Eldeſt Duke of <hi>Scotland,</hi> and ſo on, un<g ref="char:EOLhyphen"/>til the Nobility of the whole Iſland be marked in one Catalogue, as Peers of the Kingdom of Great <hi>Britain.</hi>
+            </p>
+            <p>If theſe two Articles can be agreed to, all danger of Uniting the two Kingdoms will be over, and there's no doubt but that all uſeful Laws can be made after<g ref="char:EOLhyphen"/>wards without the leaſt ſtop, that are re<g ref="char:EOLhyphen"/>quiſit for ſupporting this new moulded Empire.</p>
+            <p>But before I proceed to ſhew, what Laws would be uſeful; I muſt remove ſome Objections, that the learned Sir <hi>George Mackenzie</hi> hath made againſt the Parliament of <hi>Scotland</hi>'s having power to agree to the foreſaid two Articles, in his Obſervations upon King <hi>James</hi> his Act of Parliament concerning the Union; and the Anſwers to his Objections may
+<pb n="43" facs="tcp:52332:26"/>prevent the like, to be made againſt the power of the Parliament of <hi>England</hi> in the ſame caſe, being both Parlia<g ref="char:EOLhyphen"/>ments of <hi>England</hi> and <hi>Scotland,</hi> are of of the ſame Nature.</p>
+            <p>The firſt Argument is, That the Members of the <hi>Scots</hi> Parliament for Shires and Burghs, are the ſame with us, That the <hi>Procuratores Univerſitatis</hi> are in the Civil Law; But the <hi>Procuratores Univerſitatis</hi> could not alienat the Rights of their Conſtituents, without a ſpecial Mandat for that effect (<hi>l.</hi> 63. <hi>de pro:</hi>) Neither can the Parliament of <hi>Scotland</hi> alter the Fundamentals of their Conſtitution, without the Conſent of their Conſtituents.</p>
+            <p>It's anſwered, That the Members for Shires and Burroughs are not the ſame with the <hi>Procuratores Univerſitatis;</hi> be<g ref="char:EOLhyphen"/>cauſe, by virtue of their Commiſſions, they have abſolute power to Vote for every point, which they think can con<g ref="char:EOLhyphen"/>tribute to the ſafety of the Nation: And they are bound only by Oath of Parlia<g ref="char:EOLhyphen"/>ment, to Act as Men of Conſcience, and not as Men who have particular Inſtructi<g ref="char:EOLhyphen"/>ons from their Conſtituents. And it
+<pb n="44" facs="tcp:52332:27"/>was by that power they altered their Primitive Conſtitution, by Voting out a Third State of Parliament, in the beginning of his preſent Majeſtys Reign. Much rather can they, in the Name of their Conſtituents, agree with the Par<g ref="char:EOLhyphen"/>liament of <hi>England,</hi> to the two foreſaid Articles, being they'l contribute ſo much for their Advantage.</p>
+            <p>The ſecond Argument is, That the Commiſſioners for Shires &amp; Burroughs are only impowered to repreſent their Conſtituents in the Parliament of <hi>Scot<g ref="char:EOLhyphen"/>land;</hi> but if the Parliament of <hi>Scotland</hi> be made a part of the Parliament of Great <hi>Britain,</hi> the Parliament of <hi>Scot<g ref="char:EOLhyphen"/>land</hi> can be ſaid no longer to exiſt, and conſequently the Commiſſions of all its Members fall, till they be renewed, empowering them to ſit in the Parlia<g ref="char:EOLhyphen"/>ment of Great <hi>Britain.</hi>
+            </p>
+            <p>It's Anſwered, That by the Anſwer to the firſt Argument, we ſee that the Parliament of <hi>Scotland</hi> hath an abſolute power to agree to the foreſaid Articles, ſo that afterward they may ask new Commiſſions from their reſpective Con<g ref="char:EOLhyphen"/>ſtituents, to Unite as Members of the
+<pb n="45" facs="tcp:52332:27"/>Parliament of Great <hi>Britain.</hi> And when both Nations are perſwaded of the Ad<g ref="char:EOLhyphen"/>vantages of an Union, there can be no impediment to it.</p>
+            <p>The third Argument is, That the U<g ref="char:EOLhyphen"/>nion of Parliaments requires the full Aſ<g ref="char:EOLhyphen"/>ſent of the Members of both Parliaments; So that, if any Member diſſent, The U<g ref="char:EOLhyphen"/>nion of both Parliaments muſt ſtop: Be<g ref="char:EOLhyphen"/>cauſe, the Power of making Laws, and the Right to retain or reſign Priviledges, are two different things. The one is a a Legiſlative Power, which is regulated by a Plurality of Voices: The other is founded upon Dominion and Property, and is not ſubject to Suffrage, no more than other Properties are.</p>
+            <p>It's Anſwered to this laſt Argument, That it's granted, the Property of any Member of a private Society cannot be taken away from him, without his Con<g ref="char:EOLhyphen"/>ſent: As witneſſeth the Civil Law, (<hi>l.</hi> 28. <hi>ff. Com. Divid.</hi>) The Rules are, <hi>In re pari, melior eſt Conditio prohibentis:</hi> And, <hi>In re communi, nemo Dominorum ju<g ref="char:EOLhyphen"/>re quicquam facere poteſt, invito altero.</hi> But here is underſtood, not a private Society, but a whole Kingdom; who
+<pb n="46" facs="tcp:52332:28"/>being their own Maſters, can diſpoſe upon themſelves and Properties, as they find it convenient for their Intereſt: And that Power is devolved upon their Repreſentatives of Parliament.</p>
+            <p>Therefore if any ſmall Number of People, or of Members of Parliament, oppoſe ſo good a Deſign, as the Union of both Nations, either the Plurality of Voices ought to determine them, accor<g ref="char:EOLhyphen"/>ding to the Fundamental Law of all So<g ref="char:EOLhyphen"/>cieties, or they ſhould be obliged to ſhift for other Societies of Men.</p>
+            <p>Now, ſuppoſing that the Parliaments of both Kingdoms are joyn'd in one; and that its Members are empowered to make Laws for the Preſervation of this New Government; Amongſt many Laws that could be thought upon, theſe following ſeems neceſſary.</p>
+            <list>
+               <item>
+                  <hi>Firſt,</hi> That the Titles of both King<g ref="char:EOLhyphen"/>doms be changed into that of <hi>Great-Britain.</hi>
+               </item>
+               <item>
+                  <hi>2ly,</hi> That there be but one Imperial Crown.</item>
+               <item>
+                  <hi>3ly,</hi> That there be but one Set of Crown-Officers.</item>
+               <pb n="47" facs="tcp:52332:28"/>
+               <item>
+                  <hi>4ly,</hi> That there be but one Great Seal.</item>
+               <item>
+                  <hi>5ly,</hi> That as both Nations are one, ſo they may have both the ſame Priviledges of Trade: And that none of them be in<g ref="char:EOLhyphen"/>jured by this Law, let all Goods be tax<g ref="char:EOLhyphen"/>ed equally over the whole Iſland.</item>
+               <item>
+                  <hi>6ly,</hi> That there be appointed, by the Parliament, a parcel of Lawyers of both Nations, for compiling a Body of Civil Law, out of the Volumes of the Muni<g ref="char:EOLhyphen"/>cipal Laws of both Nations, and out of the Common Law, where they are defi<g ref="char:EOLhyphen"/>cient: Which Body of Civil Law ſhall be ratified by King and Parliament, to have the Force of all other Laws of both Nations. After which, all other Law-Books may be deſtroyed, according to the Example of the Emperor <hi>Juſtinian,</hi> when the Body of <hi>Roman</hi> Law was finiſh<g ref="char:EOLhyphen"/>ed. And until ſuch time that a Body of Law be compiled, each Kingdom may make uſe of its own Laws, without any hinderance to an Union. For its known, that till this day, <hi>Languedock, Provence, Britaignie</hi> and <hi>Normandy</hi> tho' they are parts of the ſame Kingdom, yet their Laws are not of the ſame Coin.</item>
+               <pb n="48" facs="tcp:52332:29"/>
+               <item>
+                  <hi>7ly,</hi> Being all Church-Government is indifferent, (as I have endeavoured to prove in the foregoing Eſſay) the King and Parliament may model one, that will be the moſt conſonant to their Civil Government: To which, if any of the Clergy refuſe to ſubmit, let Swords be put in their hands, to determine a Church-Government among themſelves; for the Laicks of this Iſland have drawn too much Blood already upon that Subject, whilſt the Clergy only have been amu<g ref="char:EOLhyphen"/>ſing themſelves with Diſputes. If a Church-Government cannot be model<g ref="char:EOLhyphen"/>led that will pleaſe all Parties of Laicks, there needs be no Breach in the Union of Civil Government; Becauſe, by a Li<g ref="char:EOLhyphen"/>berty of Conſcience in Church-Govern<g ref="char:EOLhyphen"/>ment, Church-Affairs may be regulat without the leaſt Confuſion.</item>
+               <item>
+                  <hi>8ly,</hi> Let there be appointed by King and Parliament, a parcel of Divines and Lawyers, for collecting one Body of Canon Law out of the Canons of Councils, the Opinions of the Fathers, and from the Conſtitutions of both Chur<g ref="char:EOLhyphen"/>ches of both Kingdoms, that were made ſince the Reformation: Which Body of
+<pb n="49" facs="tcp:52332:29"/>Canon-Law ſhall be ratified by King and Parliament, to have Force of all other Eccleſiaſtical Conſtitutions.</item>
+               <item>
+                  <hi>9thly,</hi> That Civil and Criminal Judi<g ref="char:EOLhyphen"/>catures be eſtabliſhed over the whole Iſland, in places, where the Parliament ſhall find convenient.</item>
+               <item>
+                  <hi>10thly,</hi> That there be Regiſters ap<g ref="char:EOLhyphen"/>pointed in different places of the Iſland, for obſtructing all falſe Conveyances of Eſtates</item>
+               <item>
+                  <hi>Laſtly,</hi> That the King have but one Privy Council, which for the more Diſ<g ref="char:EOLhyphen"/>patch of Bufineſs, can be divided into ſeveral ſtanding Committees.</item>
+            </list>
+            <p>Now, before I ſhew the Advantages both Nations will gain by an Union; I will make this following Digreſſion of their preſent States.</p>
+            <p>
+               <hi>England</hi> abounds with Grains, Tin, Copper, Lead, Iron, Timber, and all Creatures which furniſhes the Commo<g ref="char:EOLhyphen"/>dities of Cloath, Stuffs, Hides, Butter, Cheeſe, <hi>&amp;c.</hi>
+            </p>
+            <p>
+               <hi>Scotland,</hi> being the moſt Northward part of the Iſland, cannot be expected to make ſo pleaſant a Proſpect to the Eye, as <hi>England;</hi> Yet it hath Sufficiency of
+<pb n="50" facs="tcp:52332:30"/>Grains, Flax, Wool, and vaſt num<g ref="char:EOLhyphen"/>ber of Cattel, <hi>&amp;c.</hi> It hath likewiſe innumerable Mines of Lead, Iron, <hi>&amp;c.</hi>
+            </p>
+            <p>Although the Nobility and Gentry of both Kingdoms are the ſame in Humor, and Conduct of Living; yet there is a great Diſparity between the Common People, both as to Humor and Conſti<g ref="char:EOLhyphen"/>tution of Body, by reaſon of their diffe<g ref="char:EOLhyphen"/>rent way of Feeding. The <hi>Engliſh</hi> is Self-conceited, Lovers of their Belly, and daring: Whilſt the <hi>Scots</hi> are pati<g ref="char:EOLhyphen"/>ent, ſober in Diet, and hath ſomething of a Timorous Civility.</p>
+            <p>The Nature of the Civil Govern<g ref="char:EOLhyphen"/>ments of both Kingdoms, is almoſt the ſame; each of them having its Parliament, to protect its Liber<g ref="char:EOLhyphen"/>ties.</p>
+            <p>The Number of Perſons that have Suffrage in the <hi>Engliſh</hi> Parliament, be<g ref="char:EOLhyphen"/>ſides twenty ſix Biſhops, are either of Nobility or Commons.</p>
+            <pb n="51" facs="tcp:52332:30"/>
+            <p>
+               <table>
+                  <head>The Nobility are</head>
+                  <row>
+                     <cell>Dukes</cell>
+                     <cell>17</cell>
+                  </row>
+                  <row>
+                     <cell>Marqueſſes</cell>
+                     <cell>3</cell>
+                  </row>
+                  <row>
+                     <cell>Earles</cell>
+                     <cell>72</cell>
+                  </row>
+                  <row>
+                     <cell>Viſcounts</cell>
+                     <cell>8</cell>
+                  </row>
+                  <row>
+                     <cell>Barons</cell>
+                     <cell>65</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>Sum</hi>
+                     </cell>
+                     <cell>165</cell>
+                  </row>
+               </table>
+               <table>
+                  <head>The Commons are</head>
+                  <row>
+                     <cell>Commiſſioners for fourty Shires</cell>
+                     <cell>80</cell>
+                  </row>
+                  <row>
+                     <cell>For the twelve Counties of <hi>Wales</hi>
+                     </cell>
+                     <cell>12</cell>
+                  </row>
+                  <row>
+                     <cell>For twenty five Cities</cell>
+                     <cell>54</cell>
+                  </row>
+                  <row>
+                     <cell>For the eight Cinque-Ports</cell>
+                     <cell>16</cell>
+                  </row>
+                  <row>
+                     <cell>For the two Univerſities</cell>
+                     <cell>04</cell>
+                  </row>
+                  <row>
+                     <cell>For an hundred and eghty Burghs</cell>
+                     <cell>332</cell>
+                  </row>
+                  <row>
+                     <cell>And Burgeſſes for <hi>Wales</hi>
+                     </cell>
+                     <cell>012</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>Sum</hi>
+                     </cell>
+                     <cell>510</cell>
+                  </row>
+               </table>
+            </p>
+            <p>The Number of Perſons that have Suffrage in the <hi>Scots</hi> Parliament, are ei<g ref="char:EOLhyphen"/>ther Nobility or Commons.</p>
+            <pb n="52" facs="tcp:52332:31"/>
+            <p>
+               <table>
+                  <head>The Nobility are</head>
+                  <row>
+                     <cell>Dukes</cell>
+                     <cell>4</cell>
+                  </row>
+                  <row>
+                     <cell>Marqueſſes</cell>
+                     <cell>4</cell>
+                  </row>
+                  <row>
+                     <cell>Earles</cell>
+                     <cell>67</cell>
+                  </row>
+                  <row>
+                     <cell>Viſcounts</cell>
+                     <cell>20</cell>
+                  </row>
+                  <row>
+                     <cell>Barons</cell>
+                     <cell>45</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>Sum</hi> 140</cell>
+                  </row>
+               </table>
+               <table>
+                  <head>The Commons are</head>
+                  <row>
+                     <cell>Commiſſioners for Shires</cell>
+                     <cell>89</cell>
+                  </row>
+                  <row>
+                     <cell>For Cities and for Burrows</cell>
+                     <cell>65</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>Sum</hi> 154</cell>
+                  </row>
+               </table>
+            </p>
+            <p>The Nobility of <hi>Scotland,</hi> not bear<g ref="char:EOLhyphen"/>ing a Proportion to the <hi>Engliſh</hi> Nobili<g ref="char:EOLhyphen"/>ty, conform to its Riches and Extent of Land, ought to be no Objection a<g ref="char:EOLhyphen"/>gainſt an Union of Parliaments; Becauſe, the Nobility of the whole Iſland, beco<g ref="char:EOLhyphen"/>ming Members of the ſame Houſe, will all have the ſame Intereſt: And in a little time, by Extinction of Families,
+<pb n="53" facs="tcp:52332:31"/>Creation of New Ones, and by Change of Eſtates from one place to another, will be ſo ſhuffled, that it will be hard to know, <hi>Which is Which.</hi>
+            </p>
+            <p>The number of the People of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> is calculat to be 5,500,000; and that of the People of <hi>Scotland</hi> to be 800,000.</p>
+            <p>
+               <hi>England</hi> at preſent is not above half Peopled, and, of any Countrey, it is in the leaſt danger to be overſtock't with People by reaſon of its Situation and goodneſs of Soil.</p>
+            <p>If <hi>Scotland</hi> were improved by Incloſ<g ref="char:EOLhyphen"/>ing <hi>&amp;c.</hi> it could entertain many more People, than it can at preſent, and in a ſhort time triple its Land-Rental.</p>
+            <p>
+               <hi>England</hi> with <hi>Wales</hi> contains 40,000,000, of Acres. The fourth part of them are Heath, Moors, Mountains, and Barren Ground.</p>
+            <p>
+               <hi>Scotland</hi> with its Iſlands contains 24,000,000 Acres. Two Thirds of them are Moors, Mountains, and Barren Land.</p>
+            <p>Having now done with this Digreſ<g ref="char:EOLhyphen"/>ſion, let us next ſee, what Advantages will fall by an Union, firſt to <hi>England,</hi>
+               <pb n="54" facs="tcp:52332:32"/>ſecondly to <hi>Scotland,</hi> and thirdly, to both in Common when United.</p>
+            <list>
+               <head>The Advantages that <hi>Eng<g ref="char:EOLhyphen"/>land</hi> would reap by an <hi>Union,</hi> are</head>
+               <item>
+                  <hi>FIrſt,</hi> An Augmentation of People; for whatever People cannot find En<g ref="char:EOLhyphen"/>tertainment &amp; Employment in <hi>Scotland,</hi> will chuſe rather to go further South, and ſerve their own Country, than to Ramble abroad for a Livelihood: So that the Number of People, which dies by Exceſs and Debauch in and about <hi>London,</hi> or the Southern Provinces would be ſupplyed. And how profi<g ref="char:EOLhyphen"/>table the Multitude of People is to a Country, that have Employment, and Entertainment for them, is inexpreſsible; Becauſe, it's the People, that by their Labour and Induſtry, makes the Wealth and Power of every thriving Nation: Therefore, their increaſe ſhould be pro<g ref="char:EOLhyphen"/>moted by Wiſe Conduct and Good Counſel.</item>
+               <pb n="55" facs="tcp:52332:32"/>
+               <item>
+                  <hi>2ly,</hi> An Augmentation of Riches; for <hi>England</hi> being the larger and better Kingdom, <hi>Scots</hi> People would rather purchaſe Eſtates there, than in <hi>Scotland.</hi> In <hi>England</hi> would be the Metropolis of the whole Iſland, the Meeting place of Parliament, and of all the Chief Judica<g ref="char:EOLhyphen"/>tures, thro' which the Treaſure of the whole Body Politick muſt Circulat, as Blood thro' the Heart of a Natural Body.</item>
+               <item>
+                  <hi>3ly,</hi> As <hi>Scotland</hi> would Increaſe in Riches, it would be the more able for Taxes, and contributing force both at Sea and Land; for the Suſtenance of the whole Body Politick: And conſequent<g ref="char:EOLhyphen"/>ly <hi>England</hi> would pay leſs and gain more than at preſent, when it's obliged to ſupport of it ſelf, the whole Character of the King of <hi>Great-Britain.</hi>
+               </item>
+               <item>Laſtly, <hi>England</hi> would be ſecure within it ſelf, which can never happen, ſo long as the Intereſts of <hi>England</hi> and <hi>Scotland</hi> are different. Nor is it to be expected, That the Union of Crowns can always laſt in the State they are in at preſent; Becauſe, it makes too much for the Oppreſſion of <hi>Scotland.</hi> And if
+<pb n="56" facs="tcp:52332:33"/>it falls out, that the two Kingdoms are brought into the ſame Condition, that they were in, before King <hi>James</hi> his Suc<g ref="char:EOLhyphen"/>ceſſion to the Crown of <hi>England;</hi> what can be hop'd, but that all old Animoſi<g ref="char:EOLhyphen"/>ties will be renewed, to the mutual ruine of both Parties? And even let us ſuppoſe, that as <hi>England</hi> is every way Superior to <hi>Scotland,</hi> ſo it were able to reduce it as a conquered Province; yet <hi>England</hi> ſhall never gain ſo much that way, as by a fair Union. For the Country would be depopulat, rendered Inhabitable, and made a Prey to every Nation, that would be at the pains to invade it. Beſides, it would coſt <hi>Eng<g ref="char:EOLhyphen"/>land</hi> a great Expenſe of Blood and Trea<g ref="char:EOLhyphen"/>ſure, to defeat ſo many Thouſands of brave Men, that would ſtand up for the Defence of their Country and Liber<g ref="char:EOLhyphen"/>ties; and the ſame Army that had con<g ref="char:EOLhyphen"/>quered them, perhaps may be induced at laſt, by an Ambitious King, to turn their Swords againſt their own Country-Men: So that by the ſame Army, the whole Iſland would hazard to undergo the ſame fate. We may therefore with a Demonſtration believe that the only
+<pb n="57" facs="tcp:52332:33"/>ſafe way, for <hi>England</hi> to conquer <hi>Scot<g ref="char:EOLhyphen"/>land,</hi> is by a fair Union.</item>
+            </list>
+            <list>
+               <head>The Advantages, which <hi>Scot<g ref="char:EOLhyphen"/>land</hi> will reap by an <hi>Union</hi> with <hi>England,</hi> are</head>
+               <item>FIRST, it's Trade will increaſe, having as free a Trade over the whole World, as <hi>England.</hi> Which would inable it, not only to Contribute the more for the Safety of the Publick; but to improve all its Barren Ground, to the great Satisfaction and profit of Land-proprietars.</item>
+               <item>
+                  <hi>2dly,</hi> Its Poor would no longer be a Charge to the Nation; Becauſe, they could be employed in Manufacto<g ref="char:EOLhyphen"/>ries and Fiſheries.</item>
+               <item>
+                  <hi>3ly,</hi> The Highlanders could be brought to foreſake their Ancient Cuſtomes and Language, and to apply themſelves to Virtue and Induſtry.</item>
+               <item>
+                  <hi>Laſtly,</hi> Courtiers would no longer be a Grievance to the Nation; The
+<pb n="58" facs="tcp:52332:34"/>Multitude of Nobility to the Gentry: nor them all together to the poor Huſ<g ref="char:EOLhyphen"/>band Man. Becauſe, the Intereſt of the <hi>Engliſh</hi> Court would be that of <hi>Scotland,</hi> the <hi>Engliſh</hi> and <hi>Scots</hi> Commons could Ballance the Nobility of the whole Iſland, and the increaſe of Riches would hinder Eſtates from being often ſold, and Ren<g ref="char:EOLhyphen"/>tals racked: So that the poor Husband<g ref="char:EOLhyphen"/>man would be incouraged, to improve his Farm, by a long Leaſe and eaſie Duty.</item>
+            </list>
+            <list>
+               <head>The Advantages that would accrew to the whole <hi>Iſland,</hi> ſuppoſing the Kingdoms <hi>United,</hi> are</head>
+               <item>FIRST, It would be in a Capacity to keep the <hi>Dutch</hi> Low, by manag<g ref="char:EOLhyphen"/>ing the <hi>Herring,</hi> and all other Fiſheries; that the <hi>Britiſh</hi> Subjects could under<g ref="char:EOLhyphen"/>ſel them in all Forreign Mercats, and in time bring them to the ſame Submiſsion in Fiſhing, that they were in, about the beginning of the Reign of King <hi>James</hi> the firſt, It would likewiſe be able to encour<g ref="char:EOLhyphen"/>age all Linnen Manufactories at home, &amp;
+<pb n="59" facs="tcp:52332:34"/>put them in a Caſe of ſerving the whole Iſland: which would preſerve a great deal of Treaſure in it, that is ſpent u<g ref="char:EOLhyphen"/>pon that Commodity, in <hi>Holland</hi> and other Countries.</item>
+               <item>
+                  <hi>Secondly,</hi> It would be in a Capacity to oppoſe it ſelf to <hi>France,</hi> in Defence either of it's own Intereſt, or of that of it's Allies; without being in danger of any Domeſtick, Convulſions. All <hi>Europe</hi> is ſenſible at preſent, how formidable <hi>France</hi> is to its Neighbours; for its extent of Country, vaſtneſs of Treaſure, number of Forces by Sea and Land, Bravery of Officers, and for the Wiſdom and ſteddy Counſel of its State-Miniſters: That if ever Provi<g ref="char:EOLhyphen"/>dence hath ordained her the Empire of <hi>Europe,</hi> it muſt be ſhortly after the Death of this King of <hi>Spain.</hi> For, according to a private Treaty with its Neighbours, it will be put in peaceable Poſſeſſion of as many Territories of the <hi>Spaniſh</hi> Monarchy, as are able to command all the Mediterranean Trade; and no doubt, but it will be at the pains to ſeize the reſt of it, at its own Conveni<g ref="char:EOLhyphen"/>ency, and even <hi>Darien</hi> too, which was
+<pb n="60" facs="tcp:52332:35"/>ſo much envyed, when in the Poſſeſſion of the <hi>Scots:</hi> The Right of which would belong to this whole Iſland, were <hi>Scotland</hi> and <hi>England</hi> United. And how much it were for the Intereſt of <hi>Great-Britain,</hi> to be Maſter of that <hi>Iſth<g ref="char:EOLhyphen"/>mus,</hi> is obvious to every Coffee-houſe Politician, in ſpight of all our more refined Wits.</item>
+            </list>
+            <p>To oppoſe the Union of <hi>England</hi> and <hi>Scotland,</hi> there are different Nations out of different ends.</p>
+            <list>
+               <item>
+                  <hi>Firſt,</hi> Moſt of our Popiſh Neigh<g ref="char:EOLhyphen"/>bours, out of this Maxim, That when People differ in Intereſt, they will never truſt other upon point of Feligion; being obliged to tranſgreſs all its Rules by Treachery, Cruelty, and other un<g ref="char:EOLhyphen"/>lawful Means, in protecting, and ad<g ref="char:EOLhyphen"/>vancing their worldly Intereſts. Now how much the Church of <hi>Rome</hi> Glories in ſeeing the Proteſtants deſtroy one another, is beſt known to themſelves.</item>
+               <item>
+                  <hi>Secondly,</hi> The <hi>Dutch</hi> will oppoſe it with all their Power and Cunning, for preventing the ſtrengthning of this whole Iſland, in Force and Riches, by the ruining their Fiſheries; which pro<g ref="char:EOLhyphen"/>vides
+<pb n="61" facs="tcp:52332:35"/>them with Sea-men and Money: and the undoing their Linnen Manu<g ref="char:EOLhyphen"/>factories at home.</item>
+            </list>
+            <p>The <hi>Dutch</hi> of all People underſtands their Intereſt the beſt, and ſtumble leaſt at any thing makes for their Publick Good; otherwiſe, why would they have attempted the whole Trade of the <hi>Eaſt-Indies,</hi> by the Maſſacre of the <hi>Engliſh</hi> at <hi>Amboina?</hi> Or the Dominion of the whole Seas, after that the Troubles of <hi>England</hi> and <hi>Scotland</hi> had diſabled King <hi>Charles</hi> the Firſt from taking notice of it, and that the <hi>Engliſh</hi> Government was ſhaken in pieces, after its Altera<g ref="char:EOLhyphen"/>tion?</p>
+            <p>
+               <hi>Laſtly,</hi> The <hi>French</hi> will oppoſe any Union betwixt <hi>England</hi> and <hi>Scotland,</hi> and rather than it ſhould ſucceed, will follow Cardinal <hi>Richelieu</hi>'s Practice, in corrupting Leading Men in both Nati<g ref="char:EOLhyphen"/>ons, to foment Jealouſies between them; or in hireing ſome Mercenary <hi>Engliſh</hi> Poet or Hiſtorian, to repreſent <hi>Scot<g ref="char:EOLhyphen"/>land,</hi> with all the Rancour that ill Na<g ref="char:EOLhyphen"/>ture and Ignorance can inſpire in them.</p>
+            <pb n="62" facs="tcp:52332:36"/>
+            <p> The <hi>French</hi> for many years have baul<g ref="char:EOLhyphen"/>ked nothing, that could raiſe their Mo<g ref="char:EOLhyphen"/>narchy above the Powers of their Neigh<g ref="char:EOLhyphen"/>bours; and nothing hath been more for<g ref="char:EOLhyphen"/>midable to their Deſigns, than the Joint Force of the Iſland of <hi>Great-Britain;</hi> when <hi>England</hi> alone had broke their Meaſures long e're now, and brought them to Reaſon, if it had not had Diver<g ref="char:EOLhyphen"/>ſion at Home, occaſioned ſo often by <hi>French</hi> Counſel. It's long ſince <hi>Philip de Comenes</hi> ſaid, That in his time, all the King of <hi>England</hi>'s Miniſters, and great Perſons, had Penſions of <hi>France,</hi> and gave their Acquittances upon every Receipt, which were to be ſeen in the Chamber of <hi>Paris.</hi>
+            </p>
+            <p>I ſhall now end this ſhort Eſſay, ha<g ref="char:EOLhyphen"/>ving no other Deſign by it, than the Proſperity of <hi>Great-Britain;</hi> and hopes, that ſome Judicious Unbyaſſed Perſons (as the Learned Doctor <hi>Davenam,</hi> who hath writ ſo many good Books for the Service of his Countrey) will be at the Pains, to handle this Subject in all its Particulars: That all Doubts being re<g ref="char:EOLhyphen"/>moved from the People of both Nations, there remain nothing to be done, but
+<pb n="63" facs="tcp:52332:36"/>the Action of Uniting. And till they be convinced of the abſolute Neceſſity of it, my Wiſh is, That <hi>England</hi> be out<g ref="char:EOLhyphen"/>witted in its Politicks by all its Neigh<g ref="char:EOLhyphen"/>bours, and cheated by its States-Men, into a fond Belief of its own Abilities: And that <hi>Scotland</hi> continue an oppreſſed Nation, by Courtiers and Publicans, and never have a State-Council, but of Mock-Politicians and Enemies to their Countrey.</p>
+            <closer>Vis <g ref="char:V">Ʋ</g>nita Fortior.</closer>
+         </div>
+         <div type="essay">
+            <pb facs="tcp:52332:37"/>
+            <pb n="65" facs="tcp:52332:37"/>
+            <head>AN ESSAY UPON THE <hi>PRESENT STATE</hi> OF SCOTLAND.</head>
+            <p>IT's obſervable, that there's a great Variety in Men, both as to their Bodies and Souls, conform to the different Situation of the Countries they inhabit; upon which account it is, that they differ ſo much in their Diſpoſitions to Courage, Juſtice, Temperance, Wit and Goodneſs. And their Souls are yet more various than their Bodies, that there appears ſometimes a greater diffe<g ref="char:EOLhyphen"/>rence betwixt ſome Men and others, than betwixt ſome Men and Beaſts. And as there's a great Variety betwixt Men of different Clim's, in reſpect of their Souls and Bodies, ſo is there a great
+<pb n="66" facs="tcp:52332:38"/>Diſparity amongſt Apprehehenſions and Underſtandings of the People of the ſame Countrey, proportionable to their Education; which is the Reaſon, that their Thoughts of things are not all of the ſame Reach and Juſtneſs.</p>
+            <p>There's no Society without its Mem<g ref="char:EOLhyphen"/>bers, amongſt whom, as there is a Sub-Ordination of Underſtandings, ſo there's a Sub-Ordination of Power and Com<g ref="char:EOLhyphen"/>mand, proportionable to the different Stations they hold in that Society, whereof they are Members. And hence it is, That there are in every Kingdom (as it is a Society) People of all Cha<g ref="char:EOLhyphen"/>racters, which taken all together, make up the Body Politick. Being then I'm to writ this Eſſay of the preſent State of <hi>Scotland,</hi> I will give a ſhort View, both of its People, and of their Affairs, in the ſollowing Sections.</p>
+            <div n="1" type="section">
+               <pb n="67" facs="tcp:52332:38"/>
+               <head>
+                  <hi>SECTION. I.</hi> Of the Education of Youth.</head>
+               <p>AS the ſtrongeſt Bodies owe their Vigour, in a great Meaſure, to the firſt knitting of their Joynts, and the moſt ſtately Trees are beholding to the hand that firſt planted them in an a<g ref="char:EOLhyphen"/>greeable Soil; So do Men owe, what<g ref="char:EOLhyphen"/>ever Eſteem they acquire in this World to their Education: The Impreſſions of which are ſtrong, grow up with them from their Cradle, and accompany them to their very Graves. Hence is it, That the moſt wiſe and underſtanding Law<g ref="char:EOLhyphen"/>givers of different Nations thought it their nobleſt Work, to preſcribe Rules for the early Inſtitution of Youth.</p>
+               <p>The Number of Schools and Univer<g ref="char:EOLhyphen"/>ſities in <hi>Scotland,</hi> is enough to impoſe upon the World, that there are uſed in them all the reaſonable Means for in<g ref="char:EOLhyphen"/>ſtructing of young People in Languages, Arts and Sciences; But when one comes to examine the Methods and Formali<g ref="char:EOLhyphen"/>ties
+<pb n="68" facs="tcp:52332:39"/>of Maſters in Teaching, he will ſoon be undeceived.</p>
+               <p>To look into a Grammar-School, one will find an Aſſembly of Boys of different Capacities ſmuttering of Latin, one who hath ſpent four Years at School, ano<g ref="char:EOLhyphen"/>ther three, and a third more or leſs; yet there ſhall not be one of fourty, who hath made the Proficiency in the Latin, that another Boy will do in any Modern Language with half a Years teaching. Surely there muſt be ſome Reaſon for this, that either proceeds from the Difficulty of that Language, or from ſome other Cauſe. But that the Latin is attainable in a ſhort time, we have the Example of many young People, and likewiſe of <hi>Accurſius,</hi> the Famous Lawyer, who was fourty Years old, when he firſt ſtudied Latin: Never<g ref="char:EOLhyphen"/>theleſs he hath left ſome Volumes to the World in that Language.</p>
+               <p>The Cauſes therefore of Childrens ſlow Progreſs in the Latin, to me ſeem to be,
+<list>
+                     <item>
+                        <hi>Firſt,</hi> The Formality and Affected<g ref="char:EOLhyphen"/>neſs of Parents putting their Children too young to School, before they have
+<pb n="69" facs="tcp:52332:39"/>the Senſe or Patience to apply them<g ref="char:EOLhyphen"/>ſelves, or, without conſidering whether they deſign them for Employments that require no Knowledge of Latin.</item>
+                     <item>
+                        <hi>Secondly,</hi> The wrong and pedantick Method Schoolmaſters take in teaching their Scholars; For how abſurd is it, that they ſhould teach them <hi>Latin,</hi> in the ſame Tongue they do not underſtand? and after a very tedious manner, charge their Memories with Rules and Pre<g ref="char:EOLhyphen"/>cepts, which they no ſooner learn, than they forget.</item>
+                  </list>
+               </p>
+               <p>Next, To examine the way of Teach<g ref="char:EOLhyphen"/>ing in our Colledges, we will find that young Students beſtow only half a year upon the Greek, (which is ſo uſe<g ref="char:EOLhyphen"/>ful a Language to the Learned) and al<g ref="char:EOLhyphen"/>low three years to learn Errour and Nonſence. For in place of <hi>Euclid</hi>'s Elements, and a good Syſtem of Ex<g ref="char:EOLhyphen"/>perimental Philoſophy, they ſtudy large Volumes of Logicks and Meta<g ref="char:EOLhyphen"/>phyficks; which are fit only to ſub<g ref="char:EOLhyphen"/>tilize their Brains, being the true Cob<g ref="char:EOLhyphen"/>web-learning of this World, ſoon wrought and ſoon forgot.</p>
+               <pb n="70" facs="tcp:52332:40"/>
+               <p> Seing that the Education of Youth contributes ſo much to the making Men capable, either to ſerve themſelves, or their Country; The Commiſſioners, appointed to viſit Schools &amp; Colledges, ought to take ſpecial Care both to o<g ref="char:EOLhyphen"/>blige Maſters to practiſe good Methods in Teaching, and to encourage moſt the learning of Mathematicks, and parts of Experimental Philoſophy: Becauſe its from them we have our Learned Phyſitians, Mechanicks, Sea-men &amp; Engi<g ref="char:EOLhyphen"/>neers, which are of more value to the Publick, than thinking Men that are Learned only in Triffles, and who chuſe the ſtudy of General Phyſicks and Metaphyſicks for Diſput's ſake.</p>
+               <p>It were for the Advantage of this Na<g ref="char:EOLunhyphen"/>tion, That no Boys be put to learn <hi>La<g ref="char:EOLhyphen"/>tin,</hi> that are deſigned by their Parents or Friends, to be Merchants, Mecha<g ref="char:EOLhyphen"/>nicks, or Husband-men; For how ridi<g ref="char:EOLhyphen"/>culous is it, that they ſhould conſume ſo many years in learning a Language (which is forgot in one year, if not practiſed) and neglect the ſtudy of their own Language, and other Modern Languages, Cyphering, and a fair hand
+<pb n="71" facs="tcp:52332:40"/>of Writ? which are uſeful to all Men according to their reſpective Employ<g ref="char:EOLhyphen"/>ments: And it's the great Happi<g ref="char:EOLhyphen"/>neſs of every Society, that each Mem<g ref="char:EOLhyphen"/>ber be dexterous in his own buſineſs and mind it only.</p>
+               <p>
+                  <hi>Cardinal du Peron</hi> was for ſuppreſſing in <hi>France</hi> many of its Univerſities; be<g ref="char:EOLhyphen"/>cauſe they gave too much Occaſion and Temptation to all ſorts of People to become Smatterers of Learning. For tho' the knowledge of Letters is abſolutely neceſſary in a Common-Wealth, yet they ought not to be proſti<g ref="char:EOLhyphen"/>tute to every Body without Diſtinction; For, if all the Inhabitants of a State were Learned, Trade would decay, Husbandry would no more be in faſhion: And in their places would ſucceed, Diſobedience, much Pride and Preſump<g ref="char:EOLhyphen"/>tion.</p>
+               <p>When we have ſo great a love here to the Civil Law, that every Gentle<g ref="char:EOLhyphen"/>man that hath two Sons, is ſure to de<g ref="char:EOLhyphen"/>ſign one to be a Lawyer from his very Cradle; I wiſh therefore, That means were fall'n on, to Erect Profeſſions of it in all our Univerſities: And that
+<pb n="72" facs="tcp:52332:41"/>Encouragements were given to Learned <hi>Civilians,</hi> to ſet up amongſt us, which would keep in the Nation much Money. And Students, that have no Inclination to Travel, may profit here as well as in <hi>Holland</hi> or <hi>France,</hi> and preſerve a third part, or half of their Patrimonies, they would have ſpent abroad. Nor is there any hazard that ſuch Profeſſions, will over-charge the Honourable Faculty of Lawyers, with too many Members; being that humour of following the Law will grow, only as People find, that there's more Buſineſs than Advo<g ref="char:EOLhyphen"/>eats: Which, at preſent, is not the Misfortune of <hi>Scotland.</hi>
+               </p>
+               <p>The moſt reaſonable way to provide a Fund for the Profeſſors of Law, is out of the Biſhops Rents; ſo as there are four Univerſities in this Kingdom, there may be a Profeſſion of Civil Law at every one of them: Who ought to have a Salary not under 200 <hi>lib Sterl: per annum,</hi> to make up their ſmall Num<g ref="char:EOLhyphen"/>ber of Scholars, and to inable them to make their ſtudy their whole buſineſs. Were it not then more for the Honour and Advantage of this Nation, that
+<pb n="73" facs="tcp:52332:41"/>Biſhops cents be ſo applyed, rather than in Penſions, and other unlawful ways? I refer it to the wiſdom of this Nation.</p>
+            </div>
+            <div n="2" type="section">
+               <head>
+                  <hi>SECTION II.</hi> Of the Commons.</head>
+               <p>THe Commons of <hi>Scotland</hi> beat the greateſt Bulk of the Body Politick, and it's according to their Richneſs and Eaſe, that this Kingdom can either be called Rich, Powerful, or Happy. To conſider them, therefore, particularly, I will divide them into Merchants, Mechanicks, and Husband<g ref="char:EOLhyphen"/>men.</p>
+               <p>Merchants, for the moſt part, apply themſelves to their Buſineſs, in propor<g ref="char:EOLhyphen"/>tion to the little Trade of this Country; but where there's one makes a Fortune that way, there are three turn Bank<g ref="char:EOLhyphen"/>rupts. The Reaſons of which are,</p>
+               <p>
+                  <hi>Firſt,</hi> Ever ſince we began to Traf<g ref="char:EOLhyphen"/>fick, few have applyed themſelves to Trade, that are Men of Families and
+<pb n="74" facs="tcp:52332:42"/>Fortunes. For if any Gentleman ap<g ref="char:EOLhyphen"/>plies himſelf, its ſome younger Brother, that hath a Stock of 300, or 400, <hi>lib. ſterl:</hi> which he Employeth in bringing home Wines and other ſuperfluous Com<g ref="char:EOLhyphen"/>modities, that exhauſt the ready Money thats brought into the Kingdom by its Linnen, Wool, Lead, Fiſh, <hi>&amp;c.</hi> Which Commodities, when ſold, truſt muſt given to the buyer of them; and in ſtead of a ready Return to the Merchant of his ſtock and profit, for buying new Commodities, he muſt confume them both in Expectation, by Eating and Drinking. It were then advantageous for young Merchants, that they would employ moſt of their Stocks in home-Manufactories and Fiſheries, and in e<g ref="char:EOLhyphen"/>very Commodity that can make the Export of this Kingdom conſiderable; So that Money being kept at home, the return for their Effects will be more frequent. For in every trading Nation, a Merchant of a ſmall Stock grow's Rich, by frequent buying of Goods, and receiving a quick return for them, when ſold, either in Credit, Goods, or ready Money.</p>
+               <pb n="75" facs="tcp:52332:42"/>
+               <p> 
+                  <hi>Secondly,</hi> So ſoon as a Merchant hath Scrap'd together a piece of Money, perhaps to the value of 4000, or 5000 <hi>lib. Sterl:</hi> Inſtead of employing it for promoting Trade, or by projecting any new thing, that may be ſerviceable to his Country, and to the augmenting of his Stock, nothing will ſatisfie him, but the laying of it out upon a Land Eſtate, for having the Honour to make his Son a Laird, that is, an Idle Perſon, who can find out as many Methods in ſpending his Fathers Money, as he had of gaining it.</p>
+               <p>
+                  <hi>Laſtly,</hi> Our Gentlemens Sons, who are bred Merchants, do not live frugal<g ref="char:EOLhyphen"/>ly and proportionably to their gain, after the example of the <hi>Dutch,</hi> to whom one Pence ſaved is ſo much profit.</p>
+               <p>So many are the Abuſes and Blunders that are committed in the Trade of this Nation, by particular Men's prefering their Intereſts and Humours to the Publick Good; That to retrive them from that Vice, and to bring the Trade of the Nation to any Proportion with that of our Neighbours, there remains
+<pb n="76" facs="tcp:52332:43"/>but one Expedient: That is, The erecting a Council of Trade, which may be of ſuch a Conſtitution, that by it's means, Manufactories and Fiſheries may be encouraged, our poor employed, The Exportation of Wool ſtoo'd, Law<g ref="char:EOLhyphen"/>ſuits decided ſummarly amongſt Mer<g ref="char:EOLhyphen"/>chants, Intereſt of Money lowered, and the price of Grains ſo regular, that the Poor be not ſenſible of their Dearneſs in bad years, nor the Rich of their Cheapneſs in good ones. Therefore, it's inexpreſſible, how much this Na<g ref="char:EOLhyphen"/>tion would be obliged to any perſon would contrive a good and rational Schem of Conſtitution for ſuch a Coun<g ref="char:EOLhyphen"/>cil; and to that Parliament that would give it a Beeing.</p>
+               <p>But becauſe ſuch a Council cannot be eſtabliſhed of a ſudden, let all the No<g ref="char:EOLhyphen"/>bility and Gentry of this Nation, in the mean time encourage Manufacto<g ref="char:EOLhyphen"/>ries and Trade by their Frugality and Induſtry, according to a <hi>Reſolve,</hi> which was lately invented by a parcel of good Country-men; Becauſe, People are more Zealous in obſerving any thing, to which they perſonally Promiſe, and of
+<pb n="77" facs="tcp:52332:43"/>whoſe Reaſonableneſs they are perſwa<g ref="char:EOLhyphen"/>ded: Than they are of Sumptuary Laws, which either they never hear of, or are ſuf<g ref="char:EOLhyphen"/>fered to forget, for fault of due Execution.</p>
+               <p>
+                  <hi>Scotland,</hi> at preſent, ought to be con<g ref="char:EOLhyphen"/>ſidered as a Man that hath ſpent moſt of his Eſtate in Triffles and Idleneſs, and that hath no other Means left him, but Pinch and good Conduct, for the fu<g ref="char:EOLhyphen"/>ture.</p>
+               <p>The ſecond kind of Commons to be conſidered are the Mechanicks, which are Men both capable of Invention and Application; therefore no doubt, did Trade flouriſh, there would be no ne<g ref="char:EOLhyphen"/>ceſſity of bringing home ſo many ma<g ref="char:EOLhyphen"/>nufactured things, as at preſent: And that every <hi>Scots-man</hi> might be furniſhed at home with all ſort of Houſhold Furni<g ref="char:EOLhyphen"/>ture, all kind of Arms, and with every thing Humane Eaſe or Fancy requires.</p>
+               <p>The third kind of Commons are the Husband-men, which in my Opinion are the moſt miſerable of all our Com<g ref="char:EOLhyphen"/>mons; and I believe, we have learned that Method of oppreſſing our Peſants, from the <hi>French,</hi> amongſt many other of their good Cuſtoms.</p>
+               <pb n="78" facs="tcp:52332:44"/>
+               <p> The reaſon of this Oppreſſion pro<g ref="char:EOLhyphen"/>ceeds from ſmall Farms and high-valued Duties. For the Poverty of this Nati<g ref="char:EOLhyphen"/>on, and the ſmalneſs of Trade doth oc<g ref="char:EOLhyphen"/>caſion, That Land-Eſtates are frequent<g ref="char:EOLhyphen"/>ly ſhifted from hand to hand, the pre<g ref="char:EOLhyphen"/>ſent Maſters making all they can, ſo long as they keep Poſſeſſion of them: And are ſure to rack every Tenent in his Duty, when they are diſpoſed to ſell them, for drawing the greater Price from the Buyers. Who ſo ſoon as they are Maſters of their new Purchaſes, are not at the Pains to conſider the Nature of their Soils, whether they are capable to produce both their Duties and a Live<g ref="char:EOLhyphen"/>lyhood to the Husband-men; but go on after ſuch a manner, that in few Years, no<g ref="char:EOLhyphen"/>thing will anſwer their Tenents Arrears, but the ſeizing of all they have, and tur<g ref="char:EOLhyphen"/>ning them a begging with a numerous Family. Which is an Injury not only done to the poor Tenents, but to the People, who muſt provide for their Suſte<g ref="char:EOLhyphen"/>nance by Charity.</p>
+               <p>As Husbandry is the greateſt Riches of this State, ſo it ought to contribute with all its power to maintain it, and
+<pb n="79" facs="tcp:52332:44"/>provide, that all Laws made for it's im<g ref="char:EOLhyphen"/>provement, be put to due Execution.</p>
+               <p>It is therefore requiſit, that there were appointed, by Act of Parliament, ſome Judicious Gentlemen of every County, to be choſen annually by Land-Proprie<g ref="char:EOLhyphen"/>tars of 40 Pounds <hi>Sterlin</hi> a Year, and above; who ſhould have power to de<g ref="char:EOLhyphen"/>cide all Controverſies ariſing betwixt Maſter and Tenent, (for it is not juſt, that the Maſter ſhould be both Judge and Party, as it often happens in Baron-Courts) and to inquire into the Rental of every Heritor: That ſo they may provide, that no Farms be over-valued, according to the Caprice of the Maſter, when he gives new Leaſes. And ſuch an Inquiſition would be no Impoſition on Gentlemen; becauſe, they would be only hindered from abuſing their own, to the prejudice of the Publick: Accor<g ref="char:EOLhyphen"/>ding to that Maxim of Law, <hi>Reipublicoe intereſt, ne quis re ſua male utatur.</hi>
+               </p>
+               <p>And it would be the Advantage of the Maſter, not only to ſet reaſonable Du<g ref="char:EOLhyphen"/>ties on his Farms, whereby the Husband<g ref="char:EOLhyphen"/>man may be both able and encouraged to improve his Eſtate, by all kinds of
+<pb n="80" facs="tcp:52332:45"/>Incloſure; but likewiſe, to parcel out his Eſtate into as few Farms, as he can conveniently: For, if a Farm, that pays 20 Pounds <hi>Sterlin</hi> a Year, hath as great a Family to entertain, as a Farm that pays 40 Pounds <hi>Sterlin,</hi> ſurely, he that payeth the 20 Pounds can never be in ſo good a Caſe, either to pay his Maſter, or to cultivar his Farm, as he that pay<g ref="char:EOLhyphen"/>eth the 40 Pounds, who hath not only double his Profit, but likewiſe, as ſmall a Family to entertain.</p>
+               <p>A Gentleman then, that would take reaſonable Methods to improve his Land-Eſtate, ought never to heighten his Te<g ref="char:EOLhyphen"/>nents, but proportionably to the mprove<g ref="char:EOLhyphen"/>ment of their Farms: Which, in a few Years, could be ſo improv'd, that the Rental of his Eſtate can be doubled, without Hazard of making any Beg<g ref="char:EOLhyphen"/>gers.</p>
+            </div>
+            <div n="3" type="section">
+               <pb n="81" facs="tcp:52332:45"/>
+               <head>
+                  <hi>SECTION. III.</hi> Of the Clergy.</head>
+               <p>THe firſt Foundation of the Happi<g ref="char:EOLhyphen"/>neſs of a State, is the Eſtabliſh<g ref="char:EOLhyphen"/>ment of the Reign of God, to whoſe immediat Servants (who are the Cle<g ref="char:EOLhyphen"/>gy) we owe all the Honour and Reſ<g ref="char:EOLhyphen"/>pect, the Love of Religion can inſpire into us; provided, they are diſtinguiſh<g ref="char:EOLhyphen"/>able from other People, by the Charac<g ref="char:EOLhyphen"/>ter of their Office, which is compoſed of Chriſtian Virtues: Such as Innocence of Life, Soundneſs of Doctrine in things eſſential to Salvation, and Love and Charity to all Men. And by theſe Vir<g ref="char:EOLhyphen"/>tues it was, that the firſt Preachers of the Goſpel did gain Credit to the Chri<g ref="char:EOLhyphen"/>ſtian Religion, from the moſt obſtinat Heathen Philoſophers.</p>
+               <p>The moſt of the Clergy of <hi>Scotland</hi> are Men of mean Extraction, and owe to their Education, their Opiniatritie in things indifferent. For what muſt be expected from Men, that never read any Authors, but thoſe that make for that Party, their
+<pb n="82" facs="tcp:52332:46"/>Fathers or Friends have deſign'd them to follow, but that they will Diſpute for it, ſo long as conveniently they can? And when ever Reaſon fails them, they'll protect it with all the Paſſions and Im<g ref="char:EOLhyphen"/>pertinencies imaginable. And hence is the Reaſon, that moſt part of the Di<g ref="char:EOLhyphen"/>vines, that are educat in the Northern Univerſities, amongſt the Northern Gen<g ref="char:EOLhyphen"/>try, are inclined to the Epiſcopal Go<g ref="char:EOLhyphen"/>vernment: Whilſt, many of thoſe, that are educat in the Southern Univerſities, are inclined to the Presbyterian.</p>
+               <p>It's ſtrange that Men have been ſo ex<g ref="char:EOLhyphen"/>travagant, and made ſuch Stirs in this World, about the things of another, that inſtead of making us happy here, as well as hereafter; by following the Fundamental Rule of Chriſtian Religion, to <hi>Love the Lord our God with all our Hearts, and our Neighbours as our Selves:</hi> We have only practiſed a Rule much contrary, to hate and deſtroy our Neigh<g ref="char:EOLhyphen"/>bour, for Zeal to God's Worſhip. Which no doubt hath given Occaſion to Un<g ref="char:EOLhyphen"/>thinking Men, frequently to let paſs for good Coin, this Saying; <hi>Fallere vis Ple<g ref="char:EOLhyphen"/>bem, Finge Deum.</hi>
+               </p>
+               <pb n="83" facs="tcp:52332:46"/>
+               <p> Was it not ſufficient, That, by the Reformation, moſt of the People of this Kingdom have ben brought to the true Knowledge of the Chriſtian Religion? What then hath occaſioned the one half of the Reformed ſo to ſeparat from the other, in the mutual Duty of Love and Charity, which both the ſame Countrey and Religion obliged them to obſerve? Or, why hath this Diſeaſe of Church-Government ſo affected this Kingdom, as to deſtroy its natural Force, to ruine all Proſpect of Trade, to give ſo often Temptation to our Kings to enchroach upon our Liberties, and to fill the Lear<g ref="char:EOLhyphen"/>ned World, with many uſeleſs Volumes and hundreds of ridiculous Pamphlets.</p>
+               <p>In <hi>Scotland,</hi> the Religion, before the Reformation, was that of <hi>Rome;</hi> the Care and Pains of whoſe Prieſts were ſpent in inlarging their Wealth and Au<g ref="char:EOLhyphen"/>thority, and not in informing the Minds of the People in Piety and Honeſty.</p>
+               <p>That Religion was ſo adorned with Gaudy Ceremonies, that the Splendor and Pomp of them ſerved only to amuſe the Minds of the Common People, who, like Men in an Amazement or Wonder,
+<pb n="84" facs="tcp:52332:47"/>could never recollect themſelves, for ex<g ref="char:EOLhyphen"/>amining which was the true Religion.</p>
+               <p>Its Prieſts did challenge the Remiſſion of Sins; and took the Liberty both to number and to tax them; ſo that, if the Party Confeſſing was Rich, <hi>Paradiſe</hi> did go at a great rate: And if the Party was Poor, the Prieſts did exerciſe their Authority, with the greater Severity. It hath been a great Advantage to the <hi>Ro<g ref="char:EOLhyphen"/>miſh</hi> Clergy, that they had the Wit to invent the Maſs; for, who can forbear the paying a profound reſpect to them, that by a Whiſper can produce ſo <hi>Vene<g ref="char:EOLhyphen"/>rable a Victime?</hi> The number of the Sa<g ref="char:EOLhyphen"/>craments was invented for Prieſts, to ſqueeze the Pockets of the Laicks, and Good Works to be a Spur, to excite their Ambitious Piety to enrich the Church. Purgatory was invented to make ſeparat Souls a Merchandable Commoditie, and the Invocation of Saints, to increaſe the Authority of the Clergy, who, by their Suffrage, could advance any Body they pleaſed, to the Court of Heaven.</p>
+               <p>But, at preſent, to give the <hi>Romiſh</hi> Hierarchy its due, ſince the Heat and
+<pb n="85" facs="tcp:52332:47"/>Defection of the firſt Reformers was o<g ref="char:EOLhyphen"/>ver, it hath ſo recollected the Remains of its broken Forces, with Care and In<g ref="char:EOLhyphen"/>duſtry, and managed its Affairs with ſo much Subtility; that if the Reformed do not lay aſide all their Trifling Diſputes about Church-Government, <hi>&amp;c.</hi> It may happen, that ſometime or other, (with<g ref="char:EOLhyphen"/>out a Miracle) they may loſe their Ground, which they have maintained ſo long with Expence of much Blood.</p>
+               <p>That the Kingdom may be the better ſerved with Judicious and Learned Mini<g ref="char:EOLhyphen"/>ſters, it's neceſſary that, all ſmall Sala<g ref="char:EOLhyphen"/>ries be Augmented, to preſerve them from the Tentation of Poverty; and that there may be Inſpectors appointed for all the Univerſities of this Nation, who ſhall have power to Nominat Stu<g ref="char:EOLhyphen"/>dents to ſtudy Theology: And that none be admitted to follow the Mini<g ref="char:EOLhyphen"/>ſtry, but thoſe that are appointed by them. And by ſuch a Method, this Church will not have the Misfortune to be peſtered with Blockheads, nor the Civil Government to be deprived of good Men, whom Nature hath or<g ref="char:EOLhyphen"/>dained to be Mechanicks, or Husband<g ref="char:EOLhyphen"/>men.</p>
+            </div>
+            <div n="4" type="section">
+               <pb n="86" facs="tcp:52332:48"/>
+               <head>SECTION. IV. <hi>Of the</hi> Nobility <hi>and</hi> Gentry.</head>
+               <p>THe Nobility and Gentry are the beſt Blood and Spirits of any body Politick, and ought to be reſpected as the preſervers of its Life and Vigor. For, its their duty to maintain Piety and Juſtice, to ſupport their Country with their Wealth and Sword, to protect the poor from the Inſolence of Oppreſ<g ref="char:EOLhyphen"/>ſors, and to follow Virtue and Ho<g ref="char:EOLhyphen"/>nour, as the only Badge capable to diſtinguiſh them from the reſt of their fellow Subjects.</p>
+               <p>The Nobility and Gentry of this Kingdom, have always had the Repu<g ref="char:EOLhyphen"/>tation of brave Men, and good Scho<g ref="char:EOLhyphen"/>lars, nor ought it to be otherwiſe; ſeeing they have all the Education this Country can afford, and the moſt of them have likewiſe the advantage of Travelling abroad, to learn any thing that is capable to improve their Know<g ref="char:EOLhyphen"/>ledge
+<pb n="87" facs="tcp:52332:48"/>in Men or Things. But now a days, for want of Buſineſs to apply themſelves, they either loſe the fruits of their Education, by Law-ſuits, or by reading a <hi>Horace</hi> or <hi>Juvenal,</hi> or, by ſmothering them altogether in a Bottle.</p>
+               <p>But how great an Obligation lies up<g ref="char:EOLhyphen"/>on them to apply themſelves, at pre<g ref="char:EOLhyphen"/>ſent, to ſupport their poor Country, and to ſacrifice to the Publick Good all Miſun<g ref="char:EOLhyphen"/>derſtandings occaſioned amongſt them, either by Religion or Ambition, appears from theſe following Conſiderations.</p>
+               <list>
+                  <item>
+                     <hi>Firſt,</hi> they ought to meddle with Church-Government, no further than it affects the Civil Government, or tends to give the Supream Power an Oppor<g ref="char:EOLhyphen"/>tunity to encroach upon their Liberties: Therefore, they ought all to protect that Church Government, which makes moſt for their ſecular Advantages, and encourages leaſt the Clergy in Luxurie or Ambition. And of ſuch Qualities is the Presbyterian Church-Government here eſtabliſhed by Law.</item>
+                  <item>
+                     <hi>Secondly,</hi> The Nobility and Gentry are the Springs and Wheels by which all the Affairs of this Nation move, and
+<pb n="88" facs="tcp:52332:49"/>without their Concurrence, no good or bad Law can be made, no King can encroach upon the Priviledges of the Subject; Nor no Revolution of Govern<g ref="char:EOLhyphen"/>ment can happen to the Kingdom; Therefore they ought to let paſs no Law in Parliament, which is not for the Intereſt of their Country, nor quit any Priviledge that may give occaſion to their Succeſſors to Complain of their Folly, or Injuſtice; Nor ought they to endeavour any Revolution of Government, which is not with a De<g ref="char:EOLhyphen"/>monſtration for their Countries bene<g ref="char:EOLhyphen"/>fit.</item>
+                  <item>
+                     <hi>Thirdly,</hi> They have moſt of all the Treaſure of this Kingdom amongſt them; Therefore, it's their Duty to improve their Eſtates by all the means, that Art or Induſtry can ſuggeſt unto them. And to promot Trade, by en<g ref="char:EOLhyphen"/>couraging Manufactories and Fiſheries with their Money. For, ſuppoſe a Gentleman hath Five Hundred Pound Sterline free Rent <hi>per annum;</hi> what is it, for him to imploy a 1000 <hi>
+                        <abbr>l.</abbr> ſterl:</hi> for a Stock in Trade? And ſo propor<g ref="char:EOLhyphen"/>tionably
+<pb n="89" facs="tcp:52332:49"/>to their Eſtates, may all Gentlemen imploy Sums of Money.</item>
+                  <item>
+                     <hi>Laſtly,</hi> It's their Motion and Exam<g ref="char:EOLhyphen"/>ple that influence all other People of a meaner Character; So that it may be juſtly ſaid, that all the Advantages, or Misfortunes which have befall'n this Kingdom, are to be Attribute to the Conduct of its Nobility and Gentry. For had they always been of the ſame honeſt principles, deſigning nothing but the publick Good, how happy had this Nation been long e're now? And how much regarded by all <hi>Europe?</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="5" type="section">
+               <head>
+                  <hi>SECTION. V.</hi> Of the King and Parliament.</head>
+               <p>AS every Natural Body is capable of certain intervals of Health and Sickneſs, ſo every Body Politick, and each of them requires it's Phyſitian to remove every thing that's a let to the Operation of its Nature; with this Difference, that a Natural Phyſitian works both for a Livelyhood to himſelf,
+<pb n="90" facs="tcp:52332:50"/>and for bringing his patient to the beſt habite of Body his Art is Capable whileſt a State Phyſitian, in place of curing the Body politick, (of which he hath the Inſpection and Management) forgets to keep to its Fundamental Laws, which are the true Rules of Politicks, and follows his own Ambition and Fancies: Which either deſtroy it altogether by inward Convulſions, or change it's Nature ſo far, that its hardly to be known for the ſame Body.</p>
+               <p>Every Body Politick hath its different Phyſitian, conform to the Nature of its Conſtitution. An abſolute Monarchy hath its King, who is ſo much Maſter of his Patient, that he can breath a Vein, when he finds it ſuits beſt with his Inclinations. A limited Monarchy hath its Parliament for Phyſitian, whoſe chief buſineſs is to preſerve a Symme<g ref="char:EOLhyphen"/>trie betwixt the Body and Head, that neither of them exceed its due bounds.</p>
+               <p>The Government of <hi>Scotland</hi> is a limited Monarchy, by the Conduct of whoſe Parliament both King and Country can be happy. But, alas! how ſeldom does it happen, that the Mem<g ref="char:EOLhyphen"/>bers
+<pb n="91" facs="tcp:52332:50"/>of that Auguſt Aſſembly, who are Men of different Educations, Tempers, Underſtandings, Offices, Employments, have all the ſame end in their View? which ought to be the Common Good and Honour of this Nation.</p>
+               <p>In one Kings Reign we find the Par<g ref="char:EOLhyphen"/>liament encroaching upon his preroga<g ref="char:EOLhyphen"/>tive, and in the Reign of another, we ſee it ſo abject as to ſacrifice to him their Priviledges: Examples of both are the Reigns of <hi>Charles</hi> the firſt and ſecond. For, what neceſſity was there, to drive ſo hard after the year 1638, that their poor King became a Victime to his Enemies? Or to ſink ſo far into Fond<g ref="char:EOLhyphen"/>neſs, that King <hi>Charles</hi> the ſecond had in his power to encroach upon the Li<g ref="char:EOLhyphen"/>berties of this Nation to that <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ght, that Oppreſſion it ſelf might have been palliat with the <hi>jus Regium?</hi>
+               </p>
+               <p>The unſteddy proceedings of Parlia<g ref="char:EOLhyphen"/>ments have given occaſion to the great<g ref="char:EOLhyphen"/>eſt Wits, to condemn every thing of mixt Governments, and to lay down rules for bringing them under the abſo<g ref="char:EOLhyphen"/>lute power of their Monarchs: which
+<pb n="92" facs="tcp:52332:51"/>hath been practiſed by moſt of the Princes of <hi>Europe,</hi> according to the different Circumſtances and Humours of their Subjects.</p>
+               <p>The Kings of <hi>France Lewis 13th.</hi> and <hi>14th.</hi> after the Advice of Cardinal <hi>Richelieu,</hi> did ruine firſt their Nobility and Gentry, by wheedling them into poſts of the Army, where they could ſquander away their Eſtates, to the end that they might depend upon the Court for a Livelyhood; and did ſo much harraſs the whole body of their People with Perſecutions and Taxes, to make it for ever uncapable to ſtrugle for Liberty.</p>
+               <p>The Kings of <hi>Sweden</hi> and <hi>Denmark</hi> ſe<g ref="char:EOLhyphen"/>cured firſt their Clergy, next the Con<g ref="char:EOLhyphen"/>ſciences of the Common People, and laſtly did deſtroy moſt of the Ancient Families of their Nobility and Gen<g ref="char:EOLhyphen"/>try.</p>
+               <p>The many Popular Furies which have raged in this Iſland, have no doubt been great Motives to our Kings, to ap<g ref="char:EOLhyphen"/>proach as near our Priviledges, as con<g ref="char:EOLhyphen"/>veniently they could. King <hi>James</hi> the Firſt of <hi>Great-Britain</hi> endeavoured to
+<pb n="93" facs="tcp:52332:51"/>ſcrew his Prerogative, as far as the Peo<g ref="char:EOLhyphen"/>ple would ſuffer him; for he thought nothing of Impriſoning Members of the <hi>Engliſh</hi> Parliament, or to iſſue out Pro<g ref="char:EOLhyphen"/>clamations, prohibiting his Subjects to talk of State Affairs: Tho' in the mean time, he was acting againſt the Intereſt of his Kingdoms. And the late King <hi>James</hi> ſeems to have had a great Itch after an abſolute Power, when his intro<g ref="char:EOLhyphen"/>ducing Popery was the principal Step could have been made for that end; becauſe of the Multitude of Church-Men, and the Decay of Trade, which for the moſt part are unſeparable from that Religion. But it would appear, that the Reaſon our Kings have ſo often been baulked of their Deſigns to teach their Subjects the Practical Rules of Paſ<g ref="char:EOLhyphen"/>ſive Obedience, hath been the want of Money, and a powerful ſtanding Army: Nevertheleſs they have attacqued us on our blind ſide, which was to divide the People of this Kingdom amongſt them<g ref="char:EOLhyphen"/>ſelves, and then to eſpouſe a Party, which was ſufficient to plunge any Coun<g ref="char:EOLhyphen"/>trey into the greateſt Miſery, by leav<g ref="char:EOLhyphen"/>ing the Publick Good neglected, and
+<pb n="94" facs="tcp:52332:52"/>nothing to be ſought after, but Revenge and Intereſt.</p>
+               <p>King <hi>William</hi> came to this Iſland, when both its Affairs, and thoſe of other Princes of <hi>Europe</hi> did require him; then was it, that an Occaſion offered it ſelf to the <hi>Scots,</hi> for putting their Countrey in a State of Thriving, and for curing all the Defects of its Government; But Providence ſo ordered it, that they were divided amongſt themſelves, and ren<g ref="char:EOLhyphen"/>dered uncapable to unite in Counſel for promoting the Publick Good. They were therefore lyable to be led away, whether the greateſt Faction pleaſed; which Faction divided in Imagination the Spoil of their Countrey, and ſhared all Places of Publick Truſt amongſt one another, before ever they were deter<g ref="char:EOLhyphen"/>mined to offer the Crown to his preſent Majeſty: Who is a Prince of an Illuſtri<g ref="char:EOLhyphen"/>ous Family, and merits to be ranked a<g ref="char:EOLhyphen"/>mong the greateſt Men of his time. I hope therefore, whatever Hiſtorian takes upon him, to celebrat and perpetuat to Poſterity his Heroick Actions, will do him Juſtice, by giving a true and genu<g ref="char:EOLhyphen"/>ine Account to the World, both of his
+<pb n="95" facs="tcp:52332:52"/>Virtues and Vices: That the one may ſerve to ſet off the other, as dark Sha<g ref="char:EOLhyphen"/>dows do the beſt Pictures.</p>
+            </div>
+            <div n="6" type="section">
+               <head>
+                  <hi>SECTION. VI.</hi> That a mixt Government can<g ref="char:EOLhyphen"/>not increaſe in Wealth and Power, but by the Honeſty and Wiſdom of its Mem<g ref="char:EOLhyphen"/>bers of Parliament.</head>
+               <p>IF one were to play the Philoſopher, he might, for Diſput's ſake, tell us, That the Subjects of all Govern<g ref="char:EOLhyphen"/>ments are equally happy, provided they be not ſenſible of their preſent Mi<g ref="char:EOLhyphen"/>ſery; As for Example, that a <hi>French</hi>-Peaſant, who hath coarſe Bread to fill his Belly, and Canvas-Cloaths, and Wooden-Shoes to protect him from bad Weather, is as much obliged to Fortune, as an <hi>Engliſh</hi> Farmer, who can ſmoke his Pipe, and talk of Liberty and Pro<g ref="char:EOLhyphen"/>perty at random.</p>
+               <pb n="96" facs="tcp:52332:53"/>
+               <p> Yet if we lay aſide the Theory, and conſider the Practice of People, we will read in all Hiſtories, that every Na<g ref="char:EOLhyphen"/>tion of <hi>Europe,</hi> which at this day hath no Veſtiges of its ancient Government, has ſtrugled with its Kings for Liberty, to the laſt Breath: An Inſtance of this are the <hi>French,</hi> who, ever ſince the Reign of <hi>Lewis</hi> the <hi>11th,</hi> have been attacqued in their Liberties, by ſucceeding Kings, and could never be forced to ſucceumb, till the Reign of this preſent King: Who hath taken all Opportunities to execute Cardinal <hi>Richelieu</hi>'s Political Teſtament, by arming his Popiſh Subjects againſt thoſe of the Reform'd Religion, by ac<g ref="char:EOLhyphen"/>cuſtoming his Peaſants to exorbitant Taxes and Poverty, and by bringing the greateſt of his Subjects to depend upon his Pleaſure for a Livelyhood.</p>
+               <p>Is there any Man, that hath the good luck to be born a Subject to a Limited Monarch, who compares the Circum<g ref="char:EOLhyphen"/>ſtances of one that liveth under a Ty<g ref="char:EOLhyphen"/>rant with his own, but will bleſs his Stars, and acknowledge himſelf much happier in his Practice of Liberty, than
+<pb n="97" facs="tcp:52332:53"/>any Slave can can be in its Shadow or Theory?</p>
+               <p>All Governments, by the Corrupti<g ref="char:EOLhyphen"/>on of their Parts, are lyable to many Convulſions, and even to be changed at laſt into Tyrannies, if the Nature of their Conſtitutions do not guard againſt them.</p>
+               <p>We therefore, in <hi>Scotland,</hi> are obli<g ref="char:EOLhyphen"/>ged to our Fore-Fathers, that have left us a Government which is Limited Mo<g ref="char:EOLhyphen"/>narchy; and in which, the Prerogative of the Prince, and the Liberty of the People are ſo well regulat, that there ſeems nothing wanting, that may tend to the Happineſs of either, but Honeſty and Wiſdom in the Members of Parlia<g ref="char:EOLhyphen"/>ment. For <hi>Rome</hi> was never enſlaved by its Princes, till the Senat delivered up its Priviledges to <hi>Julius Caeſar:</hi> Who was then put in a Condition, to curb the Liberties of all the Unthinking People of the <hi>Roman</hi> Empire, with Forms and Names in place of wholeſome Laws.</p>
+               <p>I may ſay, with Regret, that it hath been our Unhappineſs, ever ſince the Reſtauration of King <hi>Charles</hi> the Second, that our Liberties have been expoſed, by
+<pb n="98" facs="tcp:52332:54"/>the Unlucky Diviſion of our Parliaments into two Factions: Whereof the one was called the Court-Faction, and the other, that of the Countrey.</p>
+               <p>The Court-Faction was a Party of Men, who, under Protence of Zeal to the Service of their King, deſtroy'd their Countrey; by corrupting Members of Parliament, by dividing the Spoils of the Publick Treaſury amongſt them<g ref="char:EOLhyphen"/>ſelves and Minions; and neglecting eve<g ref="char:EOLhyphen"/>ry thing that could promote the Trade of this Nation, or provide a Livelyhood to its Poor.</p>
+               <p>That Faction was compoſed of Men, who had different Motives to comply with Diſhoneſt Practices: One out of Simplicity and good Nature, hoping, that by laying Taxes on his Countrey, he did his Majeſty good Service. Another, out of an Inclination he had to be a Knave: And a third, out of a Deſire to gain Pelf, thinking it time enough to ſerve the Pub<g ref="char:EOLhyphen"/>lick, when once he had ſerved himſelf.</p>
+               <p>The Countrey-Faction was a parcel of Members of Parliament, who thought it their Duty to keep the Legiſlative Power untainted, to be Jealous of the
+<pb n="99" facs="tcp:52332:54"/>Peoples Liberties and Rights, and to be careful for the Publick Safety; by watch<g ref="char:EOLhyphen"/>ing over the Miniſters of State, that they ſhould not embezle the Publick Money, by imploying it to corrupt Members of Parliament, or to maintain a ſtanding Army, to bully the People out of their Senſes.</p>
+               <p>Theſe Members, that made up that Party, have moved according to different Principles; for one hath acted out of pure and ſincere Love to his Countrey, another out of Hatred and Malice to Stateſmen, and a third out of Deſign to ruine the Government, in which he was not employed: Of what a Medley of Men then, hath that Countrey-Faction been compoſed? Nevertheleſs, People ought to make no Diſtinction amongſt them, ſo long as they all promote the Publick Intereſt; becauſe they will have time enough to diſcern the Dregs of a Faction, ſo ſoon as they ſeparat from the pure Body.</p>
+               <p>Now after the Deſcription of the fore<g ref="char:EOLhyphen"/>ſaid Factions, Methinks, that 'tis the Countrey-Faction, which ought to be carreſſed and eſteemed by all their Con<g ref="char:EOLhyphen"/>ſtituents,
+<pb n="100" facs="tcp:52332:55"/>as Men that act both out of Conſcience and Honour, knowing that the Freedom and Wealth of every State go hand in hand together. And it hath been often ſeen amongſt our Fore-Fathers, that this Faction hath maintained both the Prerogative of their Kings, and the Liberties of their Countrey: Whilſt the Court part hath found it convenient, to retire into the Shadows of Oblivion.</p>
+               <p>'Tis ſtrange, that moſt of our Cour<g ref="char:EOLhyphen"/>tiers, for near theſe hundred Years, have been ſo much in Love with their privat Intereſt, and valued ſo little that of the Publick, that long ago, it hath been a Problem in <hi>Scotland,</hi> whether Parliaments were uſeful or not; becauſe, the firſt thing propoſed there, hath been always (next to Religion) a Subſidy for his Majeſty: And which was both propoſed and granted in one day with<g ref="char:EOLhyphen"/>out the Members of Parliament taking the Pains to examine, to what uſe it ſhould be employed, or to calculat a juſt Sum for the ſame uſe. And hence is the Reaſon, that Money given by Par<g ref="char:EOLhyphen"/>liaments to their Kings, hath ſerved on<g ref="char:EOLhyphen"/>ly to be a Bait and Reward for Covetous
+<pb n="101" facs="tcp:52332:55"/>Courtiers to betray their Countrey, and for the Inſolent Tackſmen, to oppreſs the Poor People.</p>
+               <p>At this rate, I confeſs, Parliaments are meer empty ſhadows of Liberty. When a Commiſſioner and Secretary could have asked His Majeſty his Com<g ref="char:EOLhyphen"/>mands for <hi>Scotland,</hi> and at the ſame time engaged ſo to ſecure the Major party of Parliament with Places and Promiſes, that it would be always in a readineſs to Vote what ever way the Court pleaſed.</p>
+               <p>A mixt Government hath the Ad<g ref="char:EOLhyphen"/>vantage of all other Governments; For, if Members of Parliament do but their Duty, it's impoſſible that ever it can hazard to be brought under the Tyrannie of its Monarch. But if the Members be debauch'd with Principles of Self-intereſt, and ſuffer the Nations Treaſure to be waſted, Secre<g ref="char:EOLhyphen"/>taries of State to undermine our Privi<g ref="char:EOLhyphen"/>ledges, and Trade to be neglected; I ſay, That ſuch a mixt Government is a Tyrannie eſtabliſhed by our ſelves: And that no King ought to be blamed for drawing us after him, with our own Fetters of Slavery.</p>
+               <pb n="102" facs="tcp:52332:56"/>
+               <p>'Tis therefore, that the principal points of the Duty of Members of Parliament are,</p>
+               <p>
+                  <hi>Firſt,</hi> That they be Men unbyaſſed, and uncorrupt, preſering the Safety and Intereſt of the Country to any Self-love.</p>
+               <p>
+                  <hi>Secondly,</hi> That they endeavour to make good Laws that may both ſecure the Subjects Property, and promot the publick Good.</p>
+               <p>
+                  <hi>Thirdly,</hi> That they never grant a Subſidy, without knowing the Reaſon why, and how it is to be applyed for the Nations benefit.</p>
+               <p>
+                  <hi>Fourthly,</hi> That the ſucceeding Seſ<g ref="char:EOLhyphen"/>ſion of Parliament call to an exact ac<g ref="char:EOLhyphen"/>count the Managers of the Subſidies granted by the preceeding Seſſion; So that Courtiers may be prevented from diſpoſing upon Penſions at pleaſure, and the Publicans from impoſing upon the Courtiers, by pretending that they are loſers in collecting of Taxes.</p>
+               <p>
+                  <hi>Fifthly,</hi> That they impeach every great Man, who dare purſue deſtructive Meaſures, either againſt the Kings Honour, or the Countries Intereſt.</p>
+               <pb n="103" facs="tcp:52332:56"/>
+               <p> If theſe Maxims be ſteddily followed by our Parliaments, then will <hi>Scotland</hi> be ſenſible, how neceſſary they are to promot every thing that tends to its Safety, Honour, and encreaſe of Wealth; and how many Advantages a mixt Government hath above that of an Abſolute.</p>
+            </div>
+            <div n="7" type="section">
+               <head>
+                  <hi>SECTION. VII.</hi> What Meaſures this preſent Parliament ought to take, for recovering the Abuſes of former Reigns, and puting this Nation into a constant Courſe of Thriving.</head>
+               <p>WEre I skilful in making Panegy<g ref="char:EOLhyphen"/>ricks, I don't ſee how I could employ my Wit and Talent better, than in praiſing thoſe Members who in the laſt Seſſion of Parliament did begin to put a Stop to that Imprudent Method,
+<pb n="104" facs="tcp:52332:57"/>we have always had, of raiſing Taxes from the People; without conſidering the State of the Nation, and whether or not it was in a Condition, by its Trade, to mantain as many Penſioners and Forces, as it had done during the late War with <hi>France.</hi> I wiſh therefore that all the Honourable Members may continue in the ſame good Sentiments this enſueing Seſſion, minding only their Countries Buſineſs, and believing that to be the beſt way both to ſerve His Majeſty and themſelves.</p>
+               <p>'Tis an hard Task for any knowing Phyſician to give a juſt Advice for re<g ref="char:EOLhyphen"/>covering any Patient that hath been long Hectick; much more is it for any privat Man, to lay down an exact Me<g ref="char:EOLhyphen"/>thod to a Parliament (whoſe Conſtitu<g ref="char:EOLhyphen"/>tion hath been almoſt changed by the ſupine negligence of its Members) for puting it ſelf &amp; ſucceeding Parliaments upon ſo good a Foot, that neither the too much Complaiſance for their Kings, nor the Treachery of any that is en<g ref="char:EOLhyphen"/>truſted with publick Employments can be able to ſhake them.</p>
+               <pb n="105" facs="tcp:52332:57"/>
+               <p> However, being that every one is obliged in duty to contribute both in Advice, and any other thing, to the ſupport of that Society, whereof he is a Member: My Advice then to the enſueing Seſſion of Parliament is as followeth.</p>
+               <list>
+                  <item>
+                     <hi>Firſt,</hi> That there be an Act for a Biennial Parliament, that may ſit two Months once in the two years, (without the Kings having power to Adjourn it for the ſaid two Months) and which in the beginning of the third year, ſhall be diſſolved: His Majeſty at the ſame time, empowering all Counties and Bur<g ref="char:EOLhyphen"/>roughs, to chooſe new Commiſsioners for the following Biennial Parliament. By ſuch an Act, Grievances will be redreſſed, and the Buſineſs of the Na<g ref="char:EOLhyphen"/>tion taken care of; Becauſe, every ſuc<g ref="char:EOLhyphen"/>ceeding Parliament will cauſe the Acts of former Parliaments to be put in Exe<g ref="char:EOLhyphen"/>cution: Nor will it be worth the pains of States-men and Courtiers to corrupt Members of Parliament, their power being but of a ſmall continuance, and Parliaments will alſo have the liberty to ſit and do Buſineſs, without the
+<pb n="106" facs="tcp:52332:58"/>trouble of Being Adjourned from day to day. For in my humble Opinion, if Parliaments cannot ſit and do Buſineſs, I don't know for what uſe they ſerve.</item>
+                  <item>
+                     <hi>Secondly,</hi> That there be an Act for a <hi>Habeas Corpus,</hi> conceived much after the Tenour of that of the <hi>Engliſh.</hi> Which Act will firſt encourage Men both to ſpeak and Writ their Sentiments con<g ref="char:EOLhyphen"/>cerning the Intereſt of the publick, with<g ref="char:EOLhyphen"/>out being afraid of the Cenſure or Diſ<g ref="char:EOLhyphen"/>pleaſure of Men in power, for every body knows how much the Liberty of the Preſs doth Contribute for expoſing the Truth, and giving political Spectacles to every Honeſt Man, by which he can ſee the Corruptions of Stateſmen and guard againſt their ſuppriſes. And I may ſay that our Neighbour Nation owes the Preſervation of its priviledges to the Liberty of the preſs; for how often had their unthinking Members of Parliament been wheedled into a Complyance with their former Kings, to deſtroy their Conſtituents Liberties, if they had not had the true Repreſen<g ref="char:EOLhyphen"/>tation of the Affairs of the Nation laid down before them by ſome honeſt ſen<g ref="char:EOLhyphen"/>ſible
+<pb n="107" facs="tcp:52332:58"/>Men? Which did ſerve as a Pole<g ref="char:EOLhyphen"/>ſtare to ſteer their Courſe by, and to excite them to Diligence in their Duty. <hi>Secondly,</hi> A <hi>Habeas Corpus</hi> will prevent Poples being puniſhed above the Merit of their Crimes, and of this Injuſtice the Emperors, <hi>Gratian, Valentinian,</hi> and <hi>Theodoſius,</hi> were ſenſible; when in their Conſtitutions (<hi>l.</hi> 5. <hi>Cod. de Cuſtod: Rerum</hi>) it is ordained, that thoſe who were ſhut up in Priſon be either con<g ref="char:EOLhyphen"/>victed and puniſhed in due time, if Guilty, or Abſolved, if Innocent. The Words of the Text are, <hi>De his quos te<g ref="char:EOLhyphen"/>net carcer incluſos, id aperta definitione ſanximus, ut aut convictos velox paena ſubdueat, aut liberandos Cuſtodia diuturna non maceret.</hi>
+                  </item>
+                  <item>
+                     <hi>Thirdly,</hi> That there be an Act eſta<g ref="char:EOLhyphen"/>bliſhing a Council of Trade, the Na<g ref="char:EOLhyphen"/>ture of which I have touched a little in the Section of the Commons; For, Trade is of ſo great Moment to any Nation, which wiſhes to make a Figure amongſt its Neighbours, That, in a word, either it muſt underſtand it in all its Mazes, or muſt reſolve to follow the Old Patriarchs way of living, which is,
+<pb n="108" facs="tcp:52332:59"/>to confine it ſelf only to what Nature requires. For which reaſon it is requi<g ref="char:EOLhyphen"/>ſit, that there be a Council of Trade, whoſe Buſineſs it ſhould be to lay down good and rational Meaſures for manag<g ref="char:EOLhyphen"/>ing it, and for Curbing all the little tricks which diſcourage People to Traffick.</item>
+                  <item>
+                     <hi>Fourthly,</hi> That the Army be reduced to as few as are only neceſſary for put<g ref="char:EOLhyphen"/>ing the Laws in Execution, and for pre<g ref="char:EOLhyphen"/>ſerving Peace at home; Becauſe, every wiſe Nation, that hath its freedom and a power to obſerve the fundamen<g ref="char:EOLhyphen"/>tal Laws of its Conſtitution, never keeps more Soldiers in time of Peace than are ſufficient to protect the Execution of of Juſtice. I am ſorry therefore, That we have neither Money to mantain ſo many brave Men that are in our Troops, nor at preſent any advantageous ſervice to employ them in; which might make them uſeful to this Kingdom: Unleſs we had got a Right to part of of the King of <hi>Spains</hi> Teſtament, which was lately made by the care of his Neighbours.</item>
+                  <item>
+                     <hi>Fifthly,</hi> That a good Method be fall'n on for regulating our Militia, and
+<pb n="109" facs="tcp:52332:59"/>a Fund provided for mantaining broken Officers, who may be uſeful to Over<g ref="char:EOLhyphen"/>ſee them. For it were hard, that Gen<g ref="char:EOLhyphen"/>tlemen, who ſome time or other may be capable to ſerve their Country, ſhould be expoſed to the Inconveniencies of Poverty.</item>
+                  <item>
+                     <hi>Sixthly,</hi> That all good Laws be made for encouraging Shipping, which is, and ought to be both the Offenſive and Defenſive force of this Kingdom.</item>
+                  <item>
+                     <hi>Seventhly,</hi> That there be an Act de<g ref="char:EOLhyphen"/>claring, That no Penſioner ſhall be capable to Vote in Parliament, or any body that hath his immediat Liveli<g ref="char:EOLhyphen"/>hood from His Majeſty; Becauſe, it is to be ſuppoſed, that all Penſioners will prefer the Humor of their Benefactor, to the Intereſt of their Country.</item>
+                  <item>
+                     <hi>Eightly,</hi> That a new Committee of Parliament be appointed every half year, to ſupply the places of Privy Counſel<g ref="char:EOLhyphen"/>lors to his Majeſty. And the Advanta<g ref="char:EOLhyphen"/>ges of ſuch an Act are evident to every Body, that knows the Practices of a Privy Council compoſed of Courtiers.</item>
+               </list>
+               <pb n="110" facs="tcp:52332:60"/>
+               <p> By theſe and ſuch Acts, the Affairs of this Kingdom can be brought to ſo good a State, that not only it may pro<g ref="char:EOLhyphen"/>vide for it's own Safety and Treaſure, but likewiſe be in a Condition, either to ſeparat from <hi>England,</hi> or to unite with it: As the Wiſdom of this Nation ſhall find it convenient.</p>
+               <p>That there is a Neceſſity for <hi>Scotland,</hi> either to unite with <hi>England,</hi> or ſeparat from it, is evident by the Experience of 97 years. In which time, this looſe and irregular Tye of the Crowns, in place of an Union of Hearts, Hands and Civil Intereſt, hath only given Occaſion to ill diſpoſed Perſons in both Kingdoms, to foment continual Jealouſies and Ani<g ref="char:EOLhyphen"/>moſities betwixt them: And to the <hi>En<g ref="char:EOLhyphen"/>gliſh,</hi> an Opportunity of cruſhing every thing, that can make for the Intereſt of <hi>Scotland.</hi> Inſtances of which are innu<g ref="char:EOLhyphen"/>merable, and ſome of them are but too freſh in our Memories.</p>
+               <p>I have already ſhewed the Advantages of an Union to both Kingdoms, in the preceeding Eſſay, and there is no Perſon more capable to bring that noble Work to a happy iſſue, than his preſent Maje<g ref="char:EOLhyphen"/>ſty;
+<pb n="111" facs="tcp:52332:60"/>who, therefore, ought to be Ad<g ref="char:EOLhyphen"/>dreſſed for that end, by the Parliaments of both Nations, that they may have the Liberty to ſit at the ſame time, for adjuſting all Matters that relate to that important Affair.</p>
+               <p>But if the <hi>Engliſh</hi> continue to neglect, and delay to unite with <hi>Scotland</hi> upon reaſonable Terms, the <hi>Scots</hi> only Inte<g ref="char:EOLhyphen"/>reſt will be, to mind their own Buſineſs for the future; ſo that whatever War may happen to <hi>England,</hi> let them ly a<g ref="char:EOLhyphen"/>ſide, preſerving Peace both at Home and Abroad; and making the beſt Advantage they can, either of their Neighbours Circumſtances, or their own: Know<g ref="char:EOLhyphen"/>ing, that tho' his <hi>Britannick</hi> Majeſty can declare War againſt any of his Neigh<g ref="char:EOLhyphen"/>bouring Princes, by virtue of his Prero<g ref="char:EOLhyphen"/>gative, yet he cannot oblige his <hi>Scots</hi> Subjects to furniſh Money for carrying it on, unleſs they pleaſe, and find it for their Intereſt. Which is impoſſible, ſo long as there is no greater Union be<g ref="char:EOLhyphen"/>twixt <hi>England</hi> and <hi>Scotland,</hi> than at pre<g ref="char:EOLhyphen"/>ſent. For ever ſince our Kings Acceſſi<g ref="char:EOLhyphen"/>on to the Crown of <hi>England,</hi> the <hi>Engliſh</hi> have always uſed the <hi>Scots,</hi> as the Ape
+<pb n="112" facs="tcp:52332:61"/>did the Cat's Clutch, to pull the Cheſ<g ref="char:EOLhyphen"/>nut out of the Fire.</p>
+               <p>Let us therefore apply our ſelves to Frugality and Honeſty, and to every thing that can put this Nation above the Contempt of its Neighbours. Let us acknowledge King <hi>William</hi> for our Mo<g ref="char:EOLhyphen"/>narch; ſo long as he liveth, and till the Hour of his Death, let us never ſo much as talk of a Succeſſor to him, nor Cabal either for the Prince of <hi>Wales</hi> or <hi>Hanno<g ref="char:EOLhyphen"/>ver.</hi> But may we for once mind our ſelves, having already been too fond of procuring Kings to the <hi>Engliſh</hi> Throne, who have only made uſe of us to ſerve their own ends.</p>
+               <p>At his preſent Majeſties Death, if there be no Succeſſor, which is already pro<g ref="char:EOLhyphen"/>vided by Law, and if this Kingdom be not united with <hi>England;</hi> Experience will teach us, how to diſpoſe of our Government. And no doubt, but <hi>Scot<g ref="char:EOLhyphen"/>land</hi> is as able to ſubſiſt of it ſelf, by the Induſtry and Wiſdom of its People, as well as many petty Governments in <hi>Europe.</hi>
+               </p>
+               <p>I will now end, putting the preſent Members of Parliament in Mind, That
+<pb n="113" facs="tcp:52332:61"/>ſeing, in all probability, his Majeſty will not ratifie that <hi>Reſolve</hi> of Parlia<g ref="char:EOLhyphen"/>ment concerning <hi>Darien;</hi> without which, (according to my Opinion) there's none of his <hi>Scots</hi> Subjects, that did con<g ref="char:EOLhyphen"/>tribute for that Expedition, but by Law may be purſued as Pirats, or their Abet<g ref="char:EOLhyphen"/>tors: Or muſt accept of a Diſhonou<g ref="char:EOLhyphen"/>rable Remiſſion. I ſay then, in the mean time, let the Members accept of all o<g ref="char:EOLhyphen"/>ther good Laws, his Majeſty will be pleaſed to grant, and eſpecially, the Act for a Biennial Parliament; without which, I would not give a Farthing for a thouſand good Laws, becauſe they will all be broke, for want of Executi<g ref="char:EOLhyphen"/>on. But never let them give more Taxes, during his Majeſties Life, which are not for advancing ſome Publick Be<g ref="char:EOLhyphen"/>nefit to the Kingdom.</p>
+               <p>And by ſo doing, we will teſtify to all the World, that the <hi>Scots</hi> are not to blame, for being branded with the Ig<g ref="char:EOLhyphen"/>nominious Crime of Piracy: Having had all the Right, that the Law of Na<g ref="char:EOLhyphen"/>tions could give them, for taking Poſ<g ref="char:EOLhyphen"/>ſeſſion of ſuch a Place.</p>
+               <pb n="114" facs="tcp:52332:62"/>
+               <p> Being then, the Honour and Safety of this Ancient Kingdom, the Advan<g ref="char:EOLhyphen"/>tages that may accreſce to it for the fu<g ref="char:EOLhyphen"/>ture, and it's own preſent Happineſs, do, in a word, depend abſolutely upon the ſteddy and honeſt Conduct of the Members of this Parliament; Let, there<g ref="char:EOLhyphen"/>fore every Member, who ſhall prefer his privat Intereſt to that of the Publick, be an Abomination to all Honeſt <hi>Scotſ<g ref="char:EOLhyphen"/>men:</hi> Who, I hope, ſhall have no more reaſon to complain to Providence in the Words of <hi>Lucan,</hi>
+                  <q>
+                     <l>Faelix <hi>Roma</hi> quidem, Civeſque habitura ſuperbos:</l>
+                     <l>Si Libertatis Superis tam Cura placeret,</l>
+                     <l>Quam Vindicta placet —</l>
+                  </q>
+               </p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:52332:62"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
